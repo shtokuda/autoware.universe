@@ -8,20 +8,20 @@
       
       
       
-        <link rel="canonical" href="https://autowarefoundation.github.io/autoware.universe/latest/control/smart_mpc_trajectory_follower/">
+        <link rel="canonical" href="https://autowarefoundation.github.io/autoware.universe/latest/planning/autoware_costmap_generator/">
       
       
-        <link rel="prev" href="../shift_decider/">
+        <link rel="prev" href="../autoware_behavior_velocity_walkway_module/">
       
       
-        <link rel="next" href="../trajectory_follower_base/">
+        <link rel="next" href="../autoware_external_velocity_limit_selector/">
       
       <link rel="icon" href="../../docs/assets/images/autoware-foundation.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.20">
     
     
       
-        <title>Index - Autoware Universe Documentation</title>
+        <title>costmap_generator - Autoware Universe Documentation</title>
       
     
     
@@ -77,7 +77,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#smart-mpc-trajectory-follower" class="md-skip">
+        <a href="#costmap_generator" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Index
+              costmap_generator
             
           </span>
         </div>
@@ -224,8 +224,6 @@
         
   
   
-    
-  
 
 
   
@@ -237,7 +235,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../autonomous_emergency_braking/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../control/autonomous_emergency_braking/" class="md-tabs__link">
         Control
       </a>
     </li>
@@ -364,13 +362,15 @@
         
   
   
+    
+  
 
 
   
   
   
     <li class="md-tabs__item">
-      <a href="../../planning" class="md-tabs__link">
+      <a href=".." class="md-tabs__link md-tabs__link--active">
         Planning
       </a>
     </li>
@@ -1685,16 +1685,16 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
       
       
         
@@ -1739,7 +1739,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           Control
@@ -1774,7 +1774,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../autonomous_emergency_braking/">Autonomous emergency braking</a>
+          <a href="../../control/autonomous_emergency_braking/">Autonomous emergency braking</a>
           
         </div>
       
@@ -1824,7 +1824,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../autoware_mpc_lateral_controller/">Autoware mpc lateral controller</a>
+          <a href="../../control/autoware_mpc_lateral_controller/">Autoware mpc lateral controller</a>
           
             <label for="__nav_2_2">
               <span class="md-nav__icon md-icon"></span>
@@ -1847,7 +1847,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../autoware_mpc_lateral_controller/model_predictive_control_algorithm/" class="md-nav__link">
+      <a href="../../control/autoware_mpc_lateral_controller/model_predictive_control_algorithm/" class="md-nav__link">
         MPC Algorithm
       </a>
     </li>
@@ -1890,14 +1890,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../control_performance_analysis/">Control performance analysis</a>
+          <a href="../../control/autoware_smart_mpc_trajectory_follower/">Autoware smart mpc trajectory follower</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
-          Control performance analysis
+          Autoware smart mpc trajectory follower
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1938,14 +1938,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../control_validator/">Control validator</a>
+          <a href="../../control/control_performance_analysis/">Control performance analysis</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_4">
           <span class="md-nav__icon md-icon"></span>
-          Control validator
+          Control performance analysis
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1986,14 +1986,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../external_cmd_selector/">External cmd selector</a>
+          <a href="../../control/control_validator/">Control validator</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_5">
           <span class="md-nav__icon md-icon"></span>
-          External cmd selector
+          Control validator
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2034,14 +2034,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../joy_controller/">Joy controller</a>
+          <a href="../../control/external_cmd_selector/">External cmd selector</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_6">
           <span class="md-nav__icon md-icon"></span>
-          Joy controller
+          External cmd selector
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2082,14 +2082,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../lane_departure_checker/">Lane departure checker</a>
+          <a href="../../control/joy_controller/">Joy controller</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_7">
           <span class="md-nav__icon md-icon"></span>
-          Lane departure checker
+          Joy controller
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2130,14 +2130,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../obstacle_collision_checker/">Obstacle collision checker</a>
+          <a href="../../control/lane_departure_checker/">Lane departure checker</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_8">
           <span class="md-nav__icon md-icon"></span>
-          Obstacle collision checker
+          Lane departure checker
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2178,14 +2178,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../operation_mode_transition_manager/">Operation mode transition manager</a>
+          <a href="../../control/obstacle_collision_checker/">Obstacle collision checker</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_9_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_9">
           <span class="md-nav__icon md-icon"></span>
-          Operation mode transition manager
+          Obstacle collision checker
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2226,14 +2226,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../pid_longitudinal_controller/">Pid longitudinal controller</a>
+          <a href="../../control/operation_mode_transition_manager/">Operation mode transition manager</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_10_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_10">
           <span class="md-nav__icon md-icon"></span>
-          Pid longitudinal controller
+          Operation mode transition manager
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2274,14 +2274,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../predicted_path_checker/">Predicted path checker</a>
+          <a href="../../control/pid_longitudinal_controller/">Pid longitudinal controller</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_11_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_11">
           <span class="md-nav__icon md-icon"></span>
-          Predicted path checker
+          Pid longitudinal controller
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2322,14 +2322,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../pure_pursuit/">Pure pursuit</a>
+          <a href="../../control/predicted_path_checker/">Predicted path checker</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_12_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_12">
           <span class="md-nav__icon md-icon"></span>
-          Pure pursuit
+          Predicted path checker
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2370,14 +2370,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../shift_decider/">Shift decider</a>
+          <a href="../../control/pure_pursuit/">Pure pursuit</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_13_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_13">
           <span class="md-nav__icon md-icon"></span>
-          Shift decider
+          Pure pursuit
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2394,18 +2394,18 @@
               
   
   
-    
-  
   
     
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_14" checked>
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_14" >
       
       
         
@@ -2417,15 +2417,15 @@
       
         
         
-        <div class="md-nav__link md-nav__link--index md-nav__link--active">
-          <a href="./">Smart mpc trajectory follower</a>
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../control/shift_decider/">Shift decider</a>
           
         </div>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_14_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_14_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_14">
           <span class="md-nav__icon md-icon"></span>
-          Smart mpc trajectory follower
+          Shift decider
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2466,7 +2466,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../trajectory_follower_base/">Trajectory follower base</a>
+          <a href="../../control/trajectory_follower_base/">Trajectory follower base</a>
           
         </div>
       
@@ -2516,7 +2516,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../trajectory_follower_node/">Trajectory follower node</a>
+          <a href="../../control/trajectory_follower_node/">Trajectory follower node</a>
           
             <label for="__nav_2_16">
               <span class="md-nav__icon md-icon"></span>
@@ -2572,7 +2572,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trajectory_follower_node/design/simple_trajectory_follower-design/" class="md-nav__link">
+      <a href="../../control/trajectory_follower_node/design/simple_trajectory_follower-design/" class="md-nav__link">
         Simple Trajectory Follower
       </a>
     </li>
@@ -2622,7 +2622,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../vehicle_cmd_gate/">Vehicle cmd gate</a>
+          <a href="../../control/vehicle_cmd_gate/">Vehicle cmd gate</a>
           
         </div>
       
@@ -7491,16 +7491,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_8" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
       
       
         
@@ -7531,7 +7531,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_8">
           <span class="md-nav__icon md-icon"></span>
           Planning
@@ -7544,7 +7544,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning" class="md-nav__link">
+      <a href=".." class="md-nav__link">
         Introduction
       </a>
     </li>
@@ -7597,7 +7597,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_path_planner" class="md-nav__link">
+      <a href="../behavior_path_planner" class="md-nav__link">
         About Behavior Path
       </a>
     </li>
@@ -7654,7 +7654,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_path_planner/docs/behavior_path_planner_manager_design" class="md-nav__link">
+      <a href="../behavior_path_planner/docs/behavior_path_planner_manager_design" class="md-nav__link">
         Planner Manager
       </a>
     </li>
@@ -7668,7 +7668,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_path_planner/docs/behavior_path_planner_interface_design" class="md-nav__link">
+      <a href="../behavior_path_planner/docs/behavior_path_planner_interface_design" class="md-nav__link">
         Scene Module Interface
       </a>
     </li>
@@ -7682,7 +7682,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_path_planner_common/docs/behavior_path_planner_path_generation_design" class="md-nav__link">
+      <a href="../autoware_behavior_path_planner_common/docs/behavior_path_planner_path_generation_design" class="md-nav__link">
         Path Generation
       </a>
     </li>
@@ -7696,7 +7696,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_path_planner_common/docs/behavior_path_planner_safety_check" class="md-nav__link">
+      <a href="../autoware_behavior_path_planner_common/docs/behavior_path_planner_safety_check" class="md-nav__link">
         Collision Assessment/Safety Check
       </a>
     </li>
@@ -7710,7 +7710,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_path_planner_common/docs/behavior_path_planner_drivable_area_design" class="md-nav__link">
+      <a href="../autoware_behavior_path_planner_common/docs/behavior_path_planner_drivable_area_design" class="md-nav__link">
         Dynamic Drivable Area
       </a>
     </li>
@@ -7724,7 +7724,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_path_planner_common/docs/behavior_path_planner_turn_signal_design" class="md-nav__link">
+      <a href="../autoware_behavior_path_planner_common/docs/behavior_path_planner_turn_signal_design" class="md-nav__link">
         Turn Signal
       </a>
     </li>
@@ -7790,7 +7790,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_path_avoidance_by_lane_change_module" class="md-nav__link">
+      <a href="../behavior_path_avoidance_by_lane_change_module" class="md-nav__link">
         Avoidance by Lane Change
       </a>
     </li>
@@ -7804,7 +7804,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_path_dynamic_obstacle_avoidance_module" class="md-nav__link">
+      <a href="../autoware_behavior_path_dynamic_obstacle_avoidance_module" class="md-nav__link">
         Dynamic Obstacle Avoidance
       </a>
     </li>
@@ -7818,7 +7818,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_path_goal_planner_module" class="md-nav__link">
+      <a href="../behavior_path_goal_planner_module" class="md-nav__link">
         Goal Planner
       </a>
     </li>
@@ -7832,7 +7832,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_path_lane_change_module" class="md-nav__link">
+      <a href="../behavior_path_lane_change_module" class="md-nav__link">
         Lane Change
       </a>
     </li>
@@ -7846,7 +7846,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_path_side_shift_module" class="md-nav__link">
+      <a href="../autoware_behavior_path_side_shift_module" class="md-nav__link">
         Side Shift
       </a>
     </li>
@@ -7860,7 +7860,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_path_start_planner_module" class="md-nav__link">
+      <a href="../autoware_behavior_path_start_planner_module" class="md-nav__link">
         Start Planner
       </a>
     </li>
@@ -7874,7 +7874,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_path_static_obstacle_avoidance_module" class="md-nav__link">
+      <a href="../autoware_behavior_path_static_obstacle_avoidance_module" class="md-nav__link">
         Static Obstacle Avoidance
       </a>
     </li>
@@ -7941,7 +7941,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_velocity_planner" class="md-nav__link">
+      <a href="../autoware_behavior_velocity_planner" class="md-nav__link">
         About Behavior Velocity
       </a>
     </li>
@@ -7955,7 +7955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_velocity_template_module" class="md-nav__link">
+      <a href="../autoware_behavior_velocity_template_module" class="md-nav__link">
         Template for Custom Module
       </a>
     </li>
@@ -8030,7 +8030,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_blind_spot_module" class="md-nav__link">
+      <a href="../behavior_velocity_blind_spot_module" class="md-nav__link">
         Blind Spot
       </a>
     </li>
@@ -8044,7 +8044,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_crosswalk_module" class="md-nav__link">
+      <a href="../behavior_velocity_crosswalk_module" class="md-nav__link">
         Crosswalk
       </a>
     </li>
@@ -8058,7 +8058,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_detection_area_module" class="md-nav__link">
+      <a href="../behavior_velocity_detection_area_module" class="md-nav__link">
         Detection Area
       </a>
     </li>
@@ -8072,7 +8072,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_dynamic_obstacle_stop_module" class="md-nav__link">
+      <a href="../behavior_velocity_dynamic_obstacle_stop_module" class="md-nav__link">
         Dynamic Obstacle Stop
       </a>
     </li>
@@ -8086,7 +8086,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_velocity_intersection_module" class="md-nav__link">
+      <a href="../autoware_behavior_velocity_intersection_module" class="md-nav__link">
         Intersection
       </a>
     </li>
@@ -8100,7 +8100,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_no_drivable_lane_module" class="md-nav__link">
+      <a href="../behavior_velocity_no_drivable_lane_module" class="md-nav__link">
         No Drivable Lane
       </a>
     </li>
@@ -8114,7 +8114,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_no_stopping_area_module" class="md-nav__link">
+      <a href="../behavior_velocity_no_stopping_area_module" class="md-nav__link">
         No Stopping Area
       </a>
     </li>
@@ -8128,7 +8128,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_occlusion_spot_module" class="md-nav__link">
+      <a href="../behavior_velocity_occlusion_spot_module" class="md-nav__link">
         Occlusion Spot
       </a>
     </li>
@@ -8142,7 +8142,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_out_of_lane_module" class="md-nav__link">
+      <a href="../behavior_velocity_out_of_lane_module" class="md-nav__link">
         Out of Lane
       </a>
     </li>
@@ -8156,7 +8156,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_velocity_run_out_module" class="md-nav__link">
+      <a href="../autoware_behavior_velocity_run_out_module" class="md-nav__link">
         Run Out
       </a>
     </li>
@@ -8170,7 +8170,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_speed_bump_module" class="md-nav__link">
+      <a href="../behavior_velocity_speed_bump_module" class="md-nav__link">
         Speed Bump
       </a>
     </li>
@@ -8184,7 +8184,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_stop_line_module" class="md-nav__link">
+      <a href="../behavior_velocity_stop_line_module" class="md-nav__link">
         Stop Line
       </a>
     </li>
@@ -8198,7 +8198,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_traffic_light_module" class="md-nav__link">
+      <a href="../behavior_velocity_traffic_light_module" class="md-nav__link">
         Traffic Light
       </a>
     </li>
@@ -8212,7 +8212,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_velocity_virtual_traffic_light_module" class="md-nav__link">
+      <a href="../autoware_behavior_velocity_virtual_traffic_light_module" class="md-nav__link">
         Virtual Traffic Light
       </a>
     </li>
@@ -8226,7 +8226,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_behavior_velocity_walkway_module" class="md-nav__link">
+      <a href="../autoware_behavior_velocity_walkway_module" class="md-nav__link">
         Walkway
       </a>
     </li>
@@ -8326,7 +8326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/freespace_planner" class="md-nav__link">
+      <a href="../freespace_planner" class="md-nav__link">
         About Freespace Planner
       </a>
     </li>
@@ -8340,7 +8340,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/freespace_planning_algorithms" class="md-nav__link">
+      <a href="../freespace_planning_algorithms" class="md-nav__link">
         Algorithm
       </a>
     </li>
@@ -8354,7 +8354,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/freespace_planning_algorithms/rrtstar" class="md-nav__link">
+      <a href="../freespace_planning_algorithms/rrtstar" class="md-nav__link">
         RRT*
       </a>
     </li>
@@ -8382,7 +8382,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/mission_planner" class="md-nav__link">
+      <a href="../mission_planner" class="md-nav__link">
         Mission Planner
       </a>
     </li>
@@ -8484,7 +8484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_path_optimizer" class="md-nav__link">
+      <a href="../autoware_path_optimizer" class="md-nav__link">
         About Path Optimizer
       </a>
     </li>
@@ -8498,7 +8498,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_path_optimizer/docs/mpt" class="md-nav__link">
+      <a href="../autoware_path_optimizer/docs/mpt" class="md-nav__link">
         Model Predictive Trajectory (MPT)
       </a>
     </li>
@@ -8512,7 +8512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_path_optimizer/docs/debug" class="md-nav__link">
+      <a href="../autoware_path_optimizer/docs/debug" class="md-nav__link">
         How to Debug
       </a>
     </li>
@@ -8568,7 +8568,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/obstacle_cruise_planner" class="md-nav__link">
+      <a href="../obstacle_cruise_planner" class="md-nav__link">
         About Obstacle Cruise
       </a>
     </li>
@@ -8582,7 +8582,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/obstacle_cruise_planner/docs/debug" class="md-nav__link">
+      <a href="../obstacle_cruise_planner/docs/debug" class="md-nav__link">
         How to Debug
       </a>
     </li>
@@ -8603,7 +8603,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/obstacle_stop_planner" class="md-nav__link">
+      <a href="../obstacle_stop_planner" class="md-nav__link">
         Obstacle Stop Planner
       </a>
     </li>
@@ -8617,7 +8617,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/obstacle_velocity_limiter" class="md-nav__link">
+      <a href="../obstacle_velocity_limiter" class="md-nav__link">
         Obstacle Velocity Limiter
       </a>
     </li>
@@ -8666,7 +8666,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/path_smoother" class="md-nav__link">
+      <a href="../path_smoother" class="md-nav__link">
         About Path Smoother
       </a>
     </li>
@@ -8680,7 +8680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/path_smoother/docs/eb" class="md-nav__link">
+      <a href="../path_smoother/docs/eb" class="md-nav__link">
         Elastic Band
       </a>
     </li>
@@ -8740,7 +8740,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/sampling_based_planner/autoware_path_sampler" class="md-nav__link">
+      <a href="../sampling_based_planner/autoware_path_sampler" class="md-nav__link">
         Path Sample
       </a>
     </li>
@@ -8754,7 +8754,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/sampling_based_planner/autoware_sampler_common" class="md-nav__link">
+      <a href="../sampling_based_planner/autoware_sampler_common" class="md-nav__link">
         Common library
       </a>
     </li>
@@ -8768,7 +8768,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/sampling_based_planner/autoware_frenet_planner" class="md-nav__link">
+      <a href="../sampling_based_planner/autoware_frenet_planner" class="md-nav__link">
         Frenet Planner
       </a>
     </li>
@@ -8782,7 +8782,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/sampling_based_planner/autoware_bezier_sampler" class="md-nav__link">
+      <a href="../sampling_based_planner/autoware_bezier_sampler" class="md-nav__link">
         Bezier Sampler
       </a>
     </li>
@@ -8838,7 +8838,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_surround_obstacle_checker" class="md-nav__link">
+      <a href="../autoware_surround_obstacle_checker" class="md-nav__link">
         About Surround Obstacle Checker
       </a>
     </li>
@@ -8852,7 +8852,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_surround_obstacle_checker/surround_obstacle_checker-design.ja" class="md-nav__link">
+      <a href="../autoware_surround_obstacle_checker/surround_obstacle_checker-design.ja" class="md-nav__link">
         About Surround Obstacle Checker (Japanese)
       </a>
     </li>
@@ -8908,7 +8908,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_motion_velocity_planner_node/" class="md-nav__link">
+      <a href="../autoware_motion_velocity_planner_node/" class="md-nav__link">
         About Motion Velocity Planner
       </a>
     </li>
@@ -8955,7 +8955,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_motion_velocity_planner_out_of_lane_module/" class="md-nav__link">
+      <a href="../autoware_motion_velocity_planner_out_of_lane_module/" class="md-nav__link">
         Out of Lane
       </a>
     </li>
@@ -9018,7 +9018,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_velocity_smoother" class="md-nav__link">
+      <a href="../autoware_velocity_smoother" class="md-nav__link">
         About Velocity Smoother
       </a>
     </li>
@@ -9032,7 +9032,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_velocity_smoother/README.ja" class="md-nav__link">
+      <a href="../autoware_velocity_smoother/README.ja" class="md-nav__link">
         About Velocity Smoother (Japanese)
       </a>
     </li>
@@ -9060,7 +9060,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/scenario_selector" class="md-nav__link">
+      <a href="../scenario_selector" class="md-nav__link">
         Scenario Selector
       </a>
     </li>
@@ -9074,7 +9074,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_static_centerline_generator" class="md-nav__link">
+      <a href="../autoware_static_centerline_generator" class="md-nav__link">
         Static Centerline Generator
       </a>
     </li>
@@ -9131,7 +9131,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/costmap_generator" class="md-nav__link">
+      <a href="../costmap_generator" class="md-nav__link">
         Costmap Generator
       </a>
     </li>
@@ -9145,7 +9145,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_external_velocity_limit_selector" class="md-nav__link">
+      <a href="../autoware_external_velocity_limit_selector" class="md-nav__link">
         External Velocity Limit Selector
       </a>
     </li>
@@ -9159,7 +9159,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/objects_of_interest_marker_interface" class="md-nav__link">
+      <a href="../objects_of_interest_marker_interface" class="md-nav__link">
         Objects of Interest Marker Interface
       </a>
     </li>
@@ -9173,7 +9173,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/route_handler" class="md-nav__link">
+      <a href="../route_handler" class="md-nav__link">
         Route Handler
       </a>
     </li>
@@ -9187,7 +9187,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/rtc_interface" class="md-nav__link">
+      <a href="../rtc_interface" class="md-nav__link">
         RTC Interface
       </a>
     </li>
@@ -9255,7 +9255,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_remaining_distance_time_calculator" class="md-nav__link">
+      <a href="../autoware_remaining_distance_time_calculator" class="md-nav__link">
         Remaining Distance Time Calculator
       </a>
     </li>
@@ -9269,7 +9269,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/rtc_replayer" class="md-nav__link">
+      <a href="../rtc_replayer" class="md-nav__link">
         RTC Replayer
       </a>
     </li>
@@ -9353,7 +9353,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/planning_test_utils" class="md-nav__link">
+      <a href="../planning_test_utils" class="md-nav__link">
         Planning Test Utils
       </a>
     </li>
@@ -9367,7 +9367,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_planning_test_manager" class="md-nav__link">
+      <a href="../autoware_planning_test_manager" class="md-nav__link">
         Planning Test Manager
       </a>
     </li>
@@ -9381,7 +9381,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_planning_topic_converter" class="md-nav__link">
+      <a href="../autoware_planning_topic_converter" class="md-nav__link">
         Planning Topic Converter
       </a>
     </li>
@@ -9395,7 +9395,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/autoware_planning_validator" class="md-nav__link">
+      <a href="../autoware_planning_validator" class="md-nav__link">
         Planning Validator
       </a>
     </li>
@@ -13036,91 +13036,57 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#setup" class="md-nav__link">
-    Setup
+  <a href="#costmap_generator_node" class="md-nav__link">
+    costmap_generator_node
   </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#provided-features" class="md-nav__link">
-    Provided features
-  </a>
-  
-    <nav class="md-nav" aria-label="Provided features">
+    <nav class="md-nav" aria-label="costmap_generator_node">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#trajectory-following-control-based-on-ilqrmppi" class="md-nav__link">
-    Trajectory following control based on iLQR/MPPI
+  <a href="#input-topics" class="md-nav__link">
+    Input topics
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#training-of-model-and-reflection-in-control" class="md-nav__link">
-    Training of model and reflection in control
+  <a href="#output-topics" class="md-nav__link">
+    Output topics
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#performance-evaluation" class="md-nav__link">
-    Performance evaluation
+  <a href="#output-tfs" class="md-nav__link">
+    Output TFs
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#how-to-launch" class="md-nav__link">
+    How to launch
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#flowchart" class="md-nav__link">
+    Flowchart
   </a>
   
 </li>
         
       </ul>
     </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#change-of-nominal-parameters-and-their-reloading" class="md-nav__link">
-    Change of nominal parameters and their reloading
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#change-of-control-parameters-and-their-reloading" class="md-nav__link">
-    Change of control parameters and their reloading
-  </a>
-  
-    <nav class="md-nav" aria-label="Change of control parameters and their reloading">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#mpc_paramyaml" class="md-nav__link">
-    mpc_param.yaml
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#trained_model_paramyaml" class="md-nav__link">
-    trained_model_param.yaml
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#request-to-release-the-slow-stop-mode" class="md-nav__link">
-    Request to release the slow stop mode
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#limitation" class="md-nav__link">
-    Limitation
-  </a>
   
 </li>
       
@@ -13142,425 +13108,188 @@
   
 
 
-<div><p align="center">
-  <a href="https://proxima-ai-tech.com/">
-    <img width="500px" src="./images/proxima_logo.png">
-  </a>
-</p>
-<!-- cspell: ignore numba ipynb -->
-
-<h1 id="smart-mpc-trajectory-follower">Smart MPC Trajectory Follower<a class="headerlink" href="#smart-mpc-trajectory-follower" title="Permanent link">#</a></h1>
-<p>Smart MPC (Model Predictive Control) is a control algorithm that combines model predictive control and machine learning. While inheriting the advantages of model predictive control, it solves its disadvantage of modeling difficulty with a data-driven method using machine learning.</p>
-<p>This technology makes it relatively easy to operate model predictive control, which is expensive to implement, as long as an environment for collecting data can be prepared.</p>
-<p align="center">
-  <a href="https://youtu.be/j7bgK8m4-zg?si=p3ipJQy_p-5AJHOP)">
-    <image width="700px" src="./images/autoware_smart_mpc.png">
-  </image></a>
-</p>
-
-<h2 id="setup">Setup<a class="headerlink" href="#setup" title="Permanent link">#</a></h2>
-<p>After building autoware, move to <code>control/smart_mpc_trajectory_follower</code> and run the following command:</p>
-<div class="highlight"><pre><span></span><code>pip3<span class="w"> </span>install<span class="w"> </span>.
-</code></pre></div>
-<p>If you have already installed and want to update the package, run the following command instead:</p>
-<div class="highlight"><pre><span></span><code>pip3<span class="w"> </span>install<span class="w"> </span>-U<span class="w"> </span>.
-</code></pre></div>
-<h2 id="provided-features">Provided features<a class="headerlink" href="#provided-features" title="Permanent link">#</a></h2>
-<p>This package provides smart MPC logic for path-following control as well as mechanisms for learning and evaluation. These features are described below.</p>
-<h3 id="trajectory-following-control-based-on-ilqrmppi">Trajectory following control based on iLQR/MPPI<a class="headerlink" href="#trajectory-following-control-based-on-ilqrmppi" title="Permanent link">#</a></h3>
-<p>The control mode can be selected from "ilqr", "mppi", or "mppi_ilqr", and can be set as <code>mpc_parameter:system:mode</code> in <a href="./smart_mpc_trajectory_follower/param/mpc_param.yaml">mpc_param.yaml</a>.
-In "mppi_ilqr" mode, the initial value of iLQR is given by the MPPI solution.</p>
-<blockquote>
-<p>[!NOTE]
-With the default settings, the performance of "mppi" mode is limited due to an insufficient number of samples. This issue is being addressed with ongoing work to introduce GPU support.</p>
-</blockquote>
-<p>To perform a simulation, run the following command:</p>
-<div class="highlight"><pre><span></span><code>ros2<span class="w"> </span>launch<span class="w"> </span>autoware_launch<span class="w"> </span>planning_simulator.launch.xml<span class="w"> </span>map_path:<span class="o">=</span><span class="nv">$HOME</span>/autoware_map/sample-map-planning<span class="w"> </span>vehicle_model:<span class="o">=</span>sample_vehicle<span class="w"> </span>sensor_model:<span class="o">=</span>sample_sensor_kit<span class="w"> </span>trajectory_follower_mode:<span class="o">=</span>smart_mpc_trajectory_follower
-</code></pre></div>
-<blockquote>
-<p>[!NOTE]
-When running with the nominal model set in <a href="./smart_mpc_trajectory_follower/param/nominal_param.yaml">nominal_param.yaml</a>, set <code>trained_model_parameter:control_application:use_trained_model</code> to <code>false</code> in <a href="./smart_mpc_trajectory_follower/param/trained_model_param.yaml">trained_model_param.yaml</a>. To run using the trained model, set <code>trained_model_parameter:control_application:use_trained_model</code> to <code>true</code>, but the trained model must have been generated according to the following procedure.</p>
-</blockquote>
-<h3 id="training-of-model-and-reflection-in-control">Training of model and reflection in control<a class="headerlink" href="#training-of-model-and-reflection-in-control" title="Permanent link">#</a></h3>
-<p>To obtain training data, start autoware, perform a drive, and record rosbag data with the following commands.</p>
-<div class="highlight"><pre><span></span><code>ros2<span class="w"> </span>bag<span class="w"> </span>record<span class="w"> </span>/localization/kinematic_state<span class="w"> </span>/localization/acceleration<span class="w"> </span>/vehicle/status/steering_status<span class="w"> </span>/control/command/control_cmd<span class="w"> </span>/control/trajectory_follower/control_cmd<span class="w"> </span>/control/trajectory_follower/lane_departure_checker_node/debug/deviation/lateral<span class="w"> </span>/control/trajectory_follower/lane_departure_checker_node/debug/deviation/yaw<span class="w"> </span>/system/operation_mode/state<span class="w"> </span>/vehicle/status/control_mode<span class="w"> </span>/sensing/imu/imu_data<span class="w"> </span>/debug_mpc_x_des<span class="w"> </span>/debug_mpc_y_des<span class="w"> </span>/debug_mpc_v_des<span class="w"> </span>/debug_mpc_yaw_des<span class="w"> </span>/debug_mpc_acc_des<span class="w"> </span>/debug_mpc_steer_des<span class="w"> </span>/debug_mpc_X_des_converted<span class="w"> </span>/debug_mpc_x_current<span class="w"> </span>/debug_mpc_error_prediction<span class="w"> </span>/debug_mpc_max_trajectory_err<span class="w"> </span>/debug_mpc_emergency_stop_mode<span class="w"> </span>/debug_mpc_goal_stop_mode<span class="w"> </span>/debug_mpc_total_ctrl_time<span class="w"> </span>/debug_mpc_calc_u_opt_time
-</code></pre></div>
-<p>Move <a href="./smart_mpc_trajectory_follower/training_and_data_check/rosbag2.bash">rosbag2.bash</a> to the rosbag directory recorded above and execute the following command on the directory</p>
-<div class="highlight"><pre><span></span><code>bash<span class="w"> </span>rosbag2.bash
-</code></pre></div>
-<p>This converts rosbag data into CSV format for training models.</p>
-<blockquote>
-<p>[!NOTE]
-Note that a large number of terminals are automatically opened at runtime, but they are automatically closed after rosbag data conversion is completed.
-From the time you begin this process until all terminals are closed, autoware should not be running.</p>
-</blockquote>
-<p>Instead, the same result can be obtained by executing the following command in a python environment:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">smart_mpc_trajectory_follower.training_and_data_check</span> <span class="kn">import</span> <span class="n">train_drive_NN_model</span>
-<span class="n">model_trainer</span> <span class="o">=</span> <span class="n">train_drive_NN_model</span><span class="o">.</span><span class="n">train_drive_NN_model</span><span class="p">()</span>
-<span class="n">model_trainer</span><span class="o">.</span><span class="n">transform_rosbag_to_csv</span><span class="p">(</span><span class="n">rosbag_dir</span><span class="p">)</span>
-</code></pre></div>
-<p>Here, <code>rosbag_dir</code> represents the rosbag directory.
-At this time, all CSV files in <code>rosbag_dir</code> are automatically deleted first.</p>
-<p>The paths of the rosbag directories used for training, <code>dir_0</code>, <code>dir_1</code>, <code>dir_2</code>,... and the directory <code>save_dir</code> where you save the models, the model can be saved in the python environment as follows:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">from</span> <span class="nn">smart_mpc_trajectory_follower.training_and_data_check</span> <span class="kn">import</span> <span class="n">train_drive_NN_model</span>
-<span class="n">model_trainer</span> <span class="o">=</span> <span class="n">train_drive_NN_model</span><span class="o">.</span><span class="n">train_drive_NN_model</span><span class="p">()</span>
-<span class="n">model_trainer</span><span class="o">.</span><span class="n">add_data_from_csv</span><span class="p">(</span><span class="n">dir_0</span><span class="p">)</span>
-<span class="n">model_trainer</span><span class="o">.</span><span class="n">add_data_from_csv</span><span class="p">(</span><span class="n">dir_1</span><span class="p">)</span>
-<span class="n">model_trainer</span><span class="o">.</span><span class="n">add_data_from_csv</span><span class="p">(</span><span class="n">dir_2</span><span class="p">)</span>
-<span class="o">...</span>
-<span class="n">model_trainer</span><span class="o">.</span><span class="n">get_trained_model</span><span class="p">()</span>
-<span class="n">model_trainer</span><span class="o">.</span><span class="n">save_models</span><span class="p">(</span><span class="n">save_dir</span><span class="p">)</span>
-</code></pre></div>
-<p>After performing the polynomial regression, the NN can be trained on the residuals as follows:</p>
-<div class="highlight"><pre><span></span><code><span class="n">model_trainer</span><span class="o">.</span><span class="n">get_trained_model</span><span class="p">(</span><span class="n">use_polynomial_reg</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</code></pre></div>
-<blockquote>
-<p>[!NOTE]
-In the default setting, regression is performed by several preselected polynomials.
-When <code>use_selected_polynomial=False</code> is set as the argument of get_trained_model, the <code>deg</code> argument allows setting the maximum degree of the polynomial to be used.</p>
-</blockquote>
-<p>If only polynomial regression is performed and no NN model is used, run the following command:</p>
-<div class="highlight"><pre><span></span><code><span class="n">model_trainer</span><span class="o">.</span><span class="n">get_trained_model</span><span class="p">(</span><span class="n">use_polynomial_reg</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">force_NN_model_to_zero</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-</code></pre></div>
-<p>Move <code>model_for_test_drive.pth</code> and <code>polynomial_reg_info.npz</code> saved in <code>save_dir</code> to the home directory and set <code>trained_model_parameter:control_application:use_trained_model</code> in <a href="./smart_mpc_trajectory_follower/param/trained_model_param.yaml">trained_model_param.yaml</a> to <code>true</code> to reflect the trained model in the control.</p>
-<h3 id="performance-evaluation">Performance evaluation<a class="headerlink" href="#performance-evaluation" title="Permanent link">#</a></h3>
-<p>Here, as an example, we describe the verification of the adaptive performance when the wheel base of the sample_vehicle is 2.79 m, but an incorrect value of 2.0 m is given to the controller side.
-To give the controller 2.0 m as the wheel base, set the value of <code>nominal_parameter:vehicle_info:wheel_base</code> in <a href="./smart_mpc_trajectory_follower/param/nominal_param.yaml">nominal_param.yaml</a> to 2.0, and run the following command:</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-m<span class="w"> </span>smart_mpc_trajectory_follower.clear_pycache
-</code></pre></div>
-<h4 id="test-on-autoware">Test on autoware<a class="headerlink" href="#test-on-autoware" title="Permanent link">#</a></h4>
-<p>To perform a control test on autoware with the nominal model before training, make sure that <code>trained_model_parameter:control_application:use_trained_model</code> in <a href="./smart_mpc_trajectory_follower/param/trained_model_param.yaml">trained_model_param.yaml</a> is <code>false</code> and launch autoware in the manner described in "Trajectory following control based on iLQR/MPPI". This time, the following route will be used for the test:</p>
-<p><img src="images/test_route.png" width="712pix"></p>
-
-<p>Record rosbag and train the model in the manner described in "Training of model and reflection in control", and move the generated files <code>model_for_test_drive.pth</code> and <code>polynomial_reg_info.npz</code> to the home directory.</p>
-<blockquote>
-<p>[!NOTE]
-Although the data used for training is small, for the sake of simplicity, we will see how much performance can be improved with this amount of data.</p>
-</blockquote>
-<p>To control using the trained model obtained here, set <code>trained_model_parameter:control_application:use_trained_model</code> to <code>true</code>, start autoware in the same way, and drive the same route recording rosbag.
-After the driving is complete, convert the rosbag file to CSV format using the method described in "Training of model and reflection in control".
-A plot of the lateral deviation is obtained by running the <code>lateral_error_visualize</code> function in <code>control/smart_mpc_trajectory_follower/smart_mpc_trajectory_follower/training_and_data_check/data_checker.ipynb</code> for the nominal and training model rosbag files <code>rosbag_nominal</code> and <code>rosbag_trained</code>, respectively, as follows:</p>
-<div class="highlight"><pre><span></span><code><span class="n">lateral_error_visualize</span><span class="p">(</span><span class="n">dir_name</span><span class="o">=</span><span class="n">rosbag_nominal</span><span class="p">,</span><span class="n">ylim</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mf">1.2</span><span class="p">,</span><span class="mf">1.2</span><span class="p">])</span>
-<span class="n">lateral_error_visualize</span><span class="p">(</span><span class="n">dir_name</span><span class="o">=</span><span class="n">rosbag_trained</span><span class="p">,</span><span class="n">ylim</span><span class="o">=</span><span class="p">[</span><span class="o">-</span><span class="mf">1.2</span><span class="p">,</span><span class="mf">1.2</span><span class="p">])</span>
-</code></pre></div>
-<p>The following results were obtained.</p>
-<div style="display: flex; justify-content: center; align-items: center;">
-    <img src="images/lateral_error_nominal_model.png">
-    <img src="images/lateral_error_trained_model.png">
-</div>
-
-<h4 id="test-on-python-simulator">Test on python simulator<a class="headerlink" href="#test-on-python-simulator" title="Permanent link">#</a></h4>
-<p>First, to give wheel base 2.79 m in the python simulator, create the following file and save it in <code>control/smart_mpc_trajectory_follower/smart_mpc_trajectory_follower/python_simulator</code> with the name <code>sim_setting.json</code>:</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"> </span><span class="nt">"wheel_base"</span><span class="p">:</span><span class="w"> </span><span class="mf">2.79</span><span class="w"> </span><span class="p">}</span>
-</code></pre></div>
-<p>Next, run the following commands to test the slalom driving on the python simulator with the nominal model:</p>
-<div class="highlight"><pre><span></span><code><span class="kn">import</span> <span class="nn">python_simulator</span>
-<span class="kn">from</span> <span class="nn">smart_mpc_trajectory_follower.training_and_data_check</span> <span class="kn">import</span> <span class="n">train_drive_NN_model</span>
-<span class="n">initial_error</span> <span class="o">=</span> <span class="p">[</span><span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.03</span><span class="p">,</span> <span class="mf">0.01</span><span class="p">,</span> <span class="o">-</span><span class="mf">0.01</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">,</span> <span class="mf">0.0</span><span class="p">]</span>
-<span class="n">save_dir</span> <span class="o">=</span> <span class="s2">"test_python_sim"</span>
-<span class="n">python_simulator</span><span class="o">.</span><span class="n">slalom_drive</span><span class="p">(</span><span class="n">save_dir</span><span class="o">=</span><span class="n">save_dir</span><span class="p">,</span><span class="n">use_trained_model</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span><span class="n">initial_error</span><span class="o">=</span><span class="n">initial_error</span><span class="p">)</span>
-</code></pre></div>
-<p>Here, <code>initial_error</code> is the initial error from the target trajectory, in the order of x-coordinate, y-coordinate, longitudinal velocity, yaw angle, longitudinal acceleration, and steer angle,
-and <code>save_dir</code> is the directory where the driving test results are saved.</p>
-<blockquote>
-<p>[!NOTE]
-The value of <code>use_trained_model</code> given as the argument of <code>python_simulator.slalom_drive</code> takes precedence over the value of <code>trained_model_parameter:control_application:use_trained_model</code> in <a href="./smart_mpc_trajectory_follower/param/trained_model_param.yaml">trained_model_param.yaml</a>.</p>
-</blockquote>
-<p>Run the following commands to perform training using driving data of the nominal model.</p>
-<div class="highlight"><pre><span></span><code><span class="n">model_trainer</span> <span class="o">=</span> <span class="n">train_drive_NN_model</span><span class="o">.</span><span class="n">train_drive_NN_model</span><span class="p">()</span>
-<span class="n">model_trainer</span><span class="o">.</span><span class="n">add_data_from_csv</span><span class="p">(</span><span class="n">save_dir</span><span class="p">)</span>
-<span class="n">model_trainer</span><span class="o">.</span><span class="n">save_train_data</span><span class="p">(</span><span class="n">save_dir</span><span class="p">)</span>
-<span class="n">model_trainer</span><span class="o">.</span><span class="n">get_trained_model</span><span class="p">(</span><span class="n">use_polynomial_reg</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-<span class="n">model_trainer</span><span class="o">.</span><span class="n">save_models</span><span class="p">(</span><span class="n">save_dir</span><span class="o">=</span><span class="n">save_dir</span><span class="p">)</span>
-</code></pre></div>
-<p>This way, files <code>model_for_test_drive.pth</code> and <code>polynomial_reg_info.npz</code> are saved in <code>save_dir</code>.
-The following results were obtained.</p>
-<p style="text-align: center;">
-    <img src="images/python_sim_lateral_error_nominal_model.png" width="712px">
-</p>
-
-<p>The center of the upper row represents the lateral deviation.</p>
-<p>Finally, to drive with the training model, run the following commands:</p>
-<div class="highlight"><pre><span></span><code><span class="n">load_dir</span> <span class="o">=</span> <span class="n">save_dir</span>
-<span class="n">save_dir</span> <span class="o">=</span> <span class="s2">"test_python_trained_sim"</span>
-<span class="n">python_simulator</span><span class="o">.</span><span class="n">slalom_drive</span><span class="p">(</span><span class="n">save_dir</span><span class="o">=</span><span class="n">save_dir</span><span class="p">,</span><span class="n">load_dir</span><span class="o">=</span><span class="n">load_dir</span><span class="p">,</span><span class="n">use_trained_model</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="n">initial_error</span><span class="o">=</span><span class="n">initial_error</span><span class="p">)</span>
-</code></pre></div>
-<p>The following results were obtained.</p>
-<p style="text-align: center;">
-    <img src="images/python_sim_lateral_error_trained_model.png" width="712px">
-</p>
-
-<p>It can be seen that the lateral deviation has improved significantly.</p>
-<p>Here we have described wheel base, but the parameters that can be passed to the python simulator are as follows.</p>
+<div><h1 id="costmap_generator">costmap_generator<a class="headerlink" href="#costmap_generator" title="Permanent link">#</a></h1>
+<h2 id="costmap_generator_node">costmap_generator_node<a class="headerlink" href="#costmap_generator_node" title="Permanent link">#</a></h2>
+<p>This node reads <code>PointCloud</code> and/or <code>DynamicObjectArray</code> and creates an <code>OccupancyGrid</code> and <code>GridMap</code>. <code>VectorMap(Lanelet2)</code> is optional.</p>
+<h3 id="input-topics">Input topics<a class="headerlink" href="#input-topics" title="Permanent link">#</a></h3>
 <table>
 <thead>
 <tr>
-<th>Parameter</th>
+<th>Name</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>steer_bias</td>
-<td>float</td>
-<td>steer bias [rad]</td>
+<td><code>~input/objects</code></td>
+<td>autoware_perception_msgs::PredictedObjects</td>
+<td>predicted objects, for obstacles areas</td>
 </tr>
 <tr>
-<td>steer_rate_lim</td>
-<td>float</td>
-<td>steer rate limit [rad/s]</td>
+<td><code>~input/points_no_ground</code></td>
+<td>sensor_msgs::PointCloud2</td>
+<td>ground-removed points, for obstacle areas which can't be detected as objects</td>
 </tr>
 <tr>
-<td>vel_rate_lim</td>
-<td>float</td>
-<td>acceleration limit [m/s^2]</td>
+<td><code>~input/vector_map</code></td>
+<td>autoware_map_msgs::msg::LaneletMapBin</td>
+<td>vector map, for drivable areas</td>
 </tr>
 <tr>
-<td>wheel_base</td>
-<td>float</td>
-<td>wheel base [m]</td>
-</tr>
-<tr>
-<td>steer_dead_band</td>
-<td>float</td>
-<td>steer dead band [rad]</td>
-</tr>
-<tr>
-<td>adaptive_gear_ratio_coef</td>
-<td>list[float]</td>
-<td>List of floats of length 6 specifying information on speed-dependent gear ratios from tire angle to steering wheel angle.</td>
-</tr>
-<tr>
-<td>acc_time_delay</td>
-<td>float</td>
-<td>acceleration time delay [s]</td>
-</tr>
-<tr>
-<td>steer_time_delay</td>
-<td>float</td>
-<td>steer time delay [s]</td>
-</tr>
-<tr>
-<td>acc_time_constant</td>
-<td>float</td>
-<td>acceleration time constant [s]</td>
-</tr>
-<tr>
-<td>steer_time_constant</td>
-<td>float</td>
-<td>steer time constant [s]</td>
-</tr>
-<tr>
-<td>accel_map_scale</td>
-<td>float</td>
-<td>Parameter that magnifies the corresponding distortion from acceleration input values to actual acceleration realizations. <br> Correspondence information is kept in <code>control/smart_mpc_trajectory_follower/smart_mpc_trajectory_follower/python_simulator/accel_map.csv</code>.</td>
-</tr>
-<tr>
-<td>acc_scaling</td>
-<td>float</td>
-<td>acceleration scaling</td>
-</tr>
-<tr>
-<td>steer_scaling</td>
-<td>float</td>
-<td>steer scaling</td>
+<td><code>~input/scenario</code></td>
+<td>tier4_planning_msgs::Scenario</td>
+<td>scenarios to be activated, for node activation</td>
 </tr>
 </tbody>
 </table>
-<p>For example, to give the simulation side 0.01 [rad] of steer bias and 0.001 [rad] of steer dead band, edit the <code>sim_setting.json</code> as follows.</p>
-<div class="highlight"><pre><span></span><code><span class="p">{</span><span class="w"> </span><span class="nt">"steer_bias"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.01</span><span class="p">,</span><span class="w"> </span><span class="nt">"steer_dead_band"</span><span class="p">:</span><span class="w"> </span><span class="mf">0.001</span><span class="w"> </span><span class="p">}</span>
-</code></pre></div>
-<h4 id="auto-test-on-python-simulator">Auto test on python simulator<a class="headerlink" href="#auto-test-on-python-simulator" title="Permanent link">#</a></h4>
-<p>Here, we describe a method for testing adaptive performance by giving the simulation side a predefined range of model parameters while the control side is given constant model parameters.</p>
-<p>First, to restore nominal model settings to default values, set the value of <code>nominal_parameter:vehicle_info:wheel_base</code> in <a href="./smart_mpc_trajectory_follower/param/nominal_param.yaml">nominal_param.yaml</a> to 2.79, and run the following command:</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-m<span class="w"> </span>smart_mpc_trajectory_follower.clear_pycache
-</code></pre></div>
-<p>To run a driving experiment within the parameter change range set in <a href="./smart_mpc_trajectory_follower/python_simulator/run_sim.py">run_sim.py</a>, for example, move to <code>control/smart_mpc_trajectory_follower/smart_mpc_trajectory_follower/python_simulator</code> and run the following command:</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>run_sim.py<span class="w"> </span>--param_name<span class="w"> </span>steer_bias
-</code></pre></div>
-<p>Here we described the experimental procedure for steer bias, and the same method can be used for other parameters.</p>
-<p>If you want to do it for all parameters at once, run the following command:</p>
-<div class="highlight"><pre><span></span><code>yes<span class="w"> </span><span class="p">|</span><span class="w"> </span>python3<span class="w"> </span>run_sim.py
-</code></pre></div>
-<p>In <code>run_sim.py</code>, the following parameters can be set:</p>
+<h3 id="output-topics">Output topics<a class="headerlink" href="#output-topics" title="Permanent link">#</a></h3>
 <table>
 <thead>
 <tr>
-<th>Parameter</th>
+<th>Name</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>USE_TRAINED_MODEL_DIFF</td>
-<td>bool</td>
-<td>Whether the derivative of the trained model is reflected in the control</td>
+<td><code>~output/grid_map</code></td>
+<td>grid_map_msgs::GridMap</td>
+<td>costmap as GridMap, values are from 0.0 to 1.0</td>
 </tr>
 <tr>
-<td>DATA_COLLECTION_MODE</td>
-<td>str</td>
-<td>Which method will be used to collect the training data　<br> "ff": Straight line driving with feed-forward input <br> "pp": Figure eight driving with pure pursuit control <br> "mpc": Slalom driving with mpc</td>
-</tr>
-<tr>
-<td>USE_POLYNOMIAL_REGRESSION</td>
-<td>bool</td>
-<td>Whether to perform polynomial regression before NN</td>
-</tr>
-<tr>
-<td>USE_SELECTED_POLYNOMIAL</td>
-<td>bool</td>
-<td>When USE_POLYNOMIAL_REGRESSION is True, perform polynomial regression using only some preselected polynomials. <br> The choice of polynomials is intended to be able to absorb the contribution of some parameter shifts based on the nominal model of the vehicle.</td>
-</tr>
-<tr>
-<td>FORCE_NN_MODEL_TO_ZERO</td>
-<td>bool</td>
-<td>Whether to force the NN model to zero (i.e., erase the contribution of the NN model). <br> When USE_POLYNOMIAL_REGRESSION is True, setting FORCE_MODEL_TO_ZERO to True allows the control to reflect the results of polynomial regression only, without using NN models.</td>
-</tr>
-<tr>
-<td>FIT_INTERCEPT</td>
-<td>bool</td>
-<td>Whether to include bias in polynomial regression. <br> If it is False, perform the regression with a polynomial of the first degree or higher.</td>
-</tr>
-<tr>
-<td>USE_INTERCEPT</td>
-<td>bool</td>
-<td>When a polynomial regression including bias is performed, whether to use or discard the resulting bias information. <br> It is meaningful only if FIT_INTERCEPT is True.<br> If it is False, discard the bias in the polynomial regression in the hope that the NN model can remove the bias term, even if the polynomial regression is performed with the bias included.</td>
+<td><code>~output/occupancy_grid</code></td>
+<td>nav_msgs::OccupancyGrid</td>
+<td>costmap as OccupancyGrid, values are from 0 to 100</td>
 </tr>
 </tbody>
 </table>
-<blockquote>
-<p>[!NOTE]
-When <code>run_sim.py</code> is run, the <code>use_trained_model_diff</code> set in <code>run_sim.py</code> takes precedence over the <code>trained_model_parameter:control_application:use_trained_model_diff</code> set in <a href="./smart_mpc_trajectory_follower/param/trained_model_param.yaml">trained_model_param.yaml</a>.</p>
-</blockquote>
-<h2 id="change-of-nominal-parameters-and-their-reloading">Change of nominal parameters and their reloading<a class="headerlink" href="#change-of-nominal-parameters-and-their-reloading" title="Permanent link">#</a></h2>
-<p>The nominal parameters of vehicle model can be changed by editing the file <a href="./smart_mpc_trajectory_follower/param/nominal_param.yaml">nominal_param.yaml</a>.
-After changing the nominal parameters, the cache must be deleted by running the following command:</p>
-<div class="highlight"><pre><span></span><code>python3<span class="w"> </span>-m<span class="w"> </span>smart_mpc_trajectory_follower.clear_pycache
-</code></pre></div>
-<p>The nominal parameters include the following:</p>
+<h3 id="output-tfs">Output TFs<a class="headerlink" href="#output-tfs" title="Permanent link">#</a></h3>
+<p>None</p>
+<h3 id="how-to-launch">How to launch<a class="headerlink" href="#how-to-launch" title="Permanent link">#</a></h3>
+<ol>
+<li>
+<p>Execute the command <code>source install/setup.bash</code> to setup the environment</p>
+</li>
+<li>
+<p>Run <code>ros2 launch costmap_generator costmap_generator.launch.xml</code> to launch the node</p>
+</li>
+</ol>
+<h3 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">#</a></h3>
 <table>
 <thead>
 <tr>
-<th>Parameter</th>
+<th>Name</th>
 <th>Type</th>
 <th>Description</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>nominal_parameter:vehicle_info:wheel_base</td>
-<td>float</td>
-<td>wheel base [m]</td>
+<td><code>update_rate</code></td>
+<td>double</td>
+<td>timer's update rate</td>
 </tr>
 <tr>
-<td>nominal_parameter:acceleration:acc_time_delay</td>
-<td>float</td>
-<td>acceleration time delay [s]</td>
-</tr>
-<tr>
-<td>nominal_parameter:acceleration:acc_time_constant</td>
-<td>float</td>
-<td>acceleration time constant [s]</td>
-</tr>
-<tr>
-<td>nominal_parameter:steering:steer_time_delay</td>
-<td>float</td>
-<td>steer time delay [s]</td>
-</tr>
-<tr>
-<td>nominal_parameter:steering:steer_time_constant</td>
-<td>float</td>
-<td>steer time constant [s]</td>
-</tr>
-</tbody>
-</table>
-<h2 id="change-of-control-parameters-and-their-reloading">Change of control parameters and their reloading<a class="headerlink" href="#change-of-control-parameters-and-their-reloading" title="Permanent link">#</a></h2>
-<p>The control parameters can be changed by editing files <a href="./smart_mpc_trajectory_follower/param/mpc_param.yaml">mpc_param.yaml</a> and <a href="./smart_mpc_trajectory_follower/param/trained_model_param.yaml">trained_model_param.yaml</a>.
-Although it is possible to reflect parameter changes by restarting autoware, the following command allows us to do so without leaving autoware running:</p>
-<div class="highlight"><pre><span></span><code>ros2<span class="w"> </span>topic<span class="w"> </span>pub<span class="w"> </span>/pympc_reload_mpc_param_trigger<span class="w"> </span>std_msgs/msg/String<span class="w"> </span><span class="s2">"data: ''"</span><span class="w"> </span>--once
-</code></pre></div>
-<p>The main parameters among the control parameters are as follows.</p>
-<h3 id="mpc_paramyaml"><code>mpc_param.yaml</code><a class="headerlink" href="#mpc_paramyaml" title="Permanent link">#</a></h3>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>mpc_parameter:system:mode</td>
-<td>str</td>
-<td>control mode <br>"ilqr": iLQR mode <br> "mppi": MPPI mode <br> "mppi_ilqr": the initial value of iLQR is given by the MPPI solution.</td>
-</tr>
-<tr>
-<td>mpc_parameter:cost_parameters:Q</td>
-<td>list[float]</td>
-<td>Stage cost for states. <br> List of length 8, in order: straight deviation, lateral deviation, velocity deviation, yaw angle deviation, acceleration deviation, steer deviation, acceleration input deviation, steer input deviation cost weights.</td>
-</tr>
-<tr>
-<td>mpc_parameter:cost_parameters:Q_c</td>
-<td>list[float]</td>
-<td>Cost in the horizon corresponding to the following timing_Q_c for the states. <br> The correspondence of the components of the list is the same as for Q.</td>
-</tr>
-<tr>
-<td>mpc_parameter:cost_parameters:Q_f</td>
-<td>list[float]</td>
-<td>Termination cost for the states. <br> The correspondence of the components of the list is the same as for Q.</td>
-</tr>
-<tr>
-<td>mpc_parameter:cost_parameters:R</td>
-<td>list[float]</td>
-<td>A list of length 2 where R[0] is weight of cost for the change rate of acceleration input value and R[1] is weight of cost for the change rate of steer input value.</td>
-</tr>
-<tr>
-<td>mpc_parameter:mpc_setting:timing_Q_c</td>
-<td>list[int]</td>
-<td>Horizon numbers such that the stage cost for the states is set to Q_c.</td>
-</tr>
-</tbody>
-</table>
-<h3 id="trained_model_paramyaml"><code>trained_model_param.yaml</code><a class="headerlink" href="#trained_model_paramyaml" title="Permanent link">#</a></h3>
-<table>
-<thead>
-<tr>
-<th>Parameter</th>
-<th>Type</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>trained_model_parameter:control_application:use_trained_model</td>
+<td><code>activate_by_scenario</code></td>
 <td>bool</td>
-<td>Whether the trained model is reflected in the control or not.</td>
+<td>if true, activate by scenario = parking. Otherwise, activate if vehicle is inside parking lot.</td>
 </tr>
 <tr>
-<td>trained_model_parameter:control_application:use_trained_model_diff</td>
+<td><code>use_objects</code></td>
 <td>bool</td>
-<td>Whether the derivative of the trained model is reflected on the control or not. <br> It is meaningful only when use_trained_model is True, and if False, the nominal model is used for the derivative of the dynamics, and trained model is used only for prediction.</td>
+<td>whether using <code>~input/objects</code> or not</td>
+</tr>
+<tr>
+<td><code>use_points</code></td>
+<td>bool</td>
+<td>whether using <code>~input/points_no_ground</code> or not</td>
+</tr>
+<tr>
+<td><code>use_wayarea</code></td>
+<td>bool</td>
+<td>whether using <code>wayarea</code> from <code>~input/vector_map</code> or not</td>
+</tr>
+<tr>
+<td><code>use_parkinglot</code></td>
+<td>bool</td>
+<td>whether using <code>parkinglot</code> from <code>~input/vector_map</code> or not</td>
+</tr>
+<tr>
+<td><code>costmap_frame</code></td>
+<td>string</td>
+<td>created costmap's coordinate</td>
+</tr>
+<tr>
+<td><code>vehicle_frame</code></td>
+<td>string</td>
+<td>vehicle's coordinate</td>
+</tr>
+<tr>
+<td><code>map_frame</code></td>
+<td>string</td>
+<td>map's coordinate</td>
+</tr>
+<tr>
+<td><code>grid_min_value</code></td>
+<td>double</td>
+<td>minimum cost for gridmap</td>
+</tr>
+<tr>
+<td><code>grid_max_value</code></td>
+<td>double</td>
+<td>maximum cost for gridmap</td>
+</tr>
+<tr>
+<td><code>grid_resolution</code></td>
+<td>double</td>
+<td>resolution for gridmap</td>
+</tr>
+<tr>
+<td><code>grid_length_x</code></td>
+<td>int</td>
+<td>size of gridmap for x direction</td>
+</tr>
+<tr>
+<td><code>grid_length_y</code></td>
+<td>int</td>
+<td>size of gridmap for y direction</td>
+</tr>
+<tr>
+<td><code>grid_position_x</code></td>
+<td>int</td>
+<td>offset from coordinate in x direction</td>
+</tr>
+<tr>
+<td><code>grid_position_y</code></td>
+<td>int</td>
+<td>offset from coordinate in y direction</td>
+</tr>
+<tr>
+<td><code>maximum_lidar_height_thres</code></td>
+<td>double</td>
+<td>maximum height threshold for pointcloud data</td>
+</tr>
+<tr>
+<td><code>minimum_lidar_height_thres</code></td>
+<td>double</td>
+<td>minimum height threshold for pointcloud data</td>
+</tr>
+<tr>
+<td><code>expand_rectangle_size</code></td>
+<td>double</td>
+<td>expand object's rectangle with this value</td>
+</tr>
+<tr>
+<td><code>size_of_expansion_kernel</code></td>
+<td>int</td>
+<td>kernel size for blurring effect on object's costmap</td>
 </tr>
 </tbody>
 </table>
-<h2 id="request-to-release-the-slow-stop-mode">Request to release the slow stop mode<a class="headerlink" href="#request-to-release-the-slow-stop-mode" title="Permanent link">#</a></h2>
-<p>If the predicted trajectory deviates too far from the target trajectory, the system enters a slow stop mode and the vehicle stops moving.
-To cancel the slow stop mode and make the vehicle ready to run again, run the following command:</p>
-<div class="highlight"><pre><span></span><code>ros2<span class="w"> </span>topic<span class="w"> </span>pub<span class="w"> </span>/pympc_stop_mode_reset_request<span class="w"> </span>std_msgs/msg/String<span class="w"> </span><span class="s2">"data: ''"</span><span class="w"> </span>--once
-</code></pre></div>
-<h2 id="limitation">Limitation<a class="headerlink" href="#limitation" title="Permanent link">#</a></h2>
-<ul>
-<li>May not be able to start when initial position/posture is far from the target.</li>
-</ul>
-<ul>
-<li>It may take some time until the end of the planning to compile numba functions at the start of the first control.</li>
-</ul>
-<ul>
-<li>In the stopping action near the goal our control switches to another simple control law. As a result, the stopping action may not work except near the goal. Stopping is also difficult if the acceleration map is significantly shifted.</li>
-</ul></div>
+<h3 id="flowchart">Flowchart<a class="headerlink" href="#flowchart" title="Permanent link">#</a></h3>
+<p><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiBjb250ZW50U3R5bGVUeXBlPSJ0ZXh0L2NzcyIgaGVpZ2h0PSI4MzBweCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgc3R5bGU9IndpZHRoOjMwOHB4O2hlaWdodDo4MzBweDtiYWNrZ3JvdW5kOiNGRkZGRkY7IiB2ZXJzaW9uPSIxLjEiIHZpZXdCb3g9IjAgMCAzMDggODMwIiB3aWR0aD0iMzA4cHgiIHpvb21BbmRQYW49Im1hZ25pZnkiPjxkZWZzLz48Zz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxNCIgZm9udC13ZWlnaHQ9ImJvbGQiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iNjUiIHg9IjEyMCIgeT0iMzIuOTk1MSI+b25UaW1lcjwvdGV4dD48ZWxsaXBzZSBjeD0iMTU0IiBjeT0iNTcuMjk2OSIgZmlsbD0iIzIyMjIyMiIgcng9IjEwIiByeT0iMTAiIHN0eWxlPSJzdHJva2U6IzIyMjIyMjtzdHJva2Utd2lkdGg6MS4wOyIvPjxwb2x5Z29uIGZpbGw9IiNGMUYxRjEiIHBvaW50cz0iMTAxLDg3LjI5NjksMjA3LDg3LjI5NjksMjE5LDk5LjI5NjksMjA3LDExMS4yOTY5LDEwMSwxMTEuMjk2OSw4OSw5OS4yOTY5LDEwMSw4Ny4yOTY5IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSIyMCIgeD0iMTU4IiB5PSIxMjEuNTA3MyI+eWVzPC90ZXh0Pjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjEwNiIgeD0iMTAxIiB5PSIxMDMuMTA1Ij5zY2VuYXJpbyBpcyBhY3RpdmU/PC90ZXh0Pjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjE0IiB4PSIyMTkiIHk9Ijk2LjcwMjYiPm5vPC90ZXh0PjxlbGxpcHNlIGN4PSIyNTUiIGN5PSI5OS4yOTY5IiBmaWxsPSJub25lIiByeD0iMTEiIHJ5PSIxMSIgc3R5bGU9InN0cm9rZTojMjIyMjIyO3N0cm9rZS13aWR0aDoxLjA7Ii8+PGVsbGlwc2UgY3g9IjI1NSIgY3k9Ijk5LjI5NjkiIGZpbGw9IiMyMjIyMjIiIHJ4PSI2IiByeT0iNiIgc3R5bGU9InN0cm9rZTojMjIyMjIyO3N0cm9rZS13aWR0aDoxLjA7Ii8+PHJlY3QgZmlsbD0iI0YxRjFGMSIgaGVpZ2h0PSIzMy45Njg4IiByeD0iMTIuNSIgcnk9IjEyLjUiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIgd2lkdGg9IjEyNiIgeD0iOTEiIHk9IjE0My4wMDczIi8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTA2IiB4PSIxMDEiIHk9IjE2NC4xNDYiPmdldCBjdXJyZW50IHBvc2U8L3RleHQ+PHJlY3QgZmlsbD0iI0YxRjFGMSIgaGVpZ2h0PSIzMy45Njg4IiByeD0iMTIuNSIgcnk9IjEyLjUiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIgd2lkdGg9IjI4NiIgeD0iMTEiIHk9IjE5Ni45NzYxIi8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMjY2IiB4PSIyMSIgeT0iMjE4LjExNDciPnNldCB0aGUgY2VudGVyIG9mIGNvc3RtYXAgdG8gY3VycmVudCBwb3NlPC90ZXh0PjxyZWN0IGZpbGw9IiNGMUYxRjEiIGhlaWdodD0iMzMuOTY4OCIgcng9IjEyLjUiIHJ5PSIxMi41IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiIHdpZHRoPSIyMzAiIHg9IjM5IiB5PSIyOTkuMzQ3MiIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjIxMCIgeD0iNDkiIHk9IjMyMC40ODU4Ij5nZW5lcmF0ZSBtYXAgcHJpbWl0aXZlcyBjb3N0bWFwPC90ZXh0Pjxwb2x5Z29uIGZpbGw9IiNGMUYxRjEiIHBvaW50cz0iNjQsMjUwLjk0NDgsMjQ0LDI1MC45NDQ4LDI1NiwyNjIuOTQ0OCwyNDQsMjc0Ljk0NDgsNjQsMjc0Ljk0NDgsNTIsMjYyLjk0NDgsNjQsMjUwLjk0NDgiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjIwIiB4PSIxNTgiIHk9IjI4NS4xNTUzIj55ZXM8L3RleHQ+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTgwIiB4PSI2NCIgeT0iMjY2Ljc1MjkiPnVzZSB3YXlhcmVhIG9yIHVzZSBwYXJraW5nbG90PzwvdGV4dD48cG9seWdvbiBmaWxsPSIjRjFGMUYxIiBwb2ludHM9IjE1NCwzNTMuMzE1OSwxNjYsMzY1LjMxNTksMTU0LDM3Ny4zMTU5LDE0MiwzNjUuMzE1OSwxNTQsMzUzLjMxNTkiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIvPjxyZWN0IGZpbGw9IiNGMUYxRjEiIGhlaWdodD0iMzMuOTY4OCIgcng9IjEyLjUiIHJ5PSIxMi41IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiIHdpZHRoPSIxODYiIHg9IjYxIiB5PSI0NDUuNzE4MyIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjEyIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjE2NiIgeD0iNzEiIHk9IjQ2Ni44NTY5Ij5nZW5lcmF0ZSBvYmplY3RzIGNvc3RtYXA8L3RleHQ+PHBvbHlnb24gZmlsbD0iI0YxRjFGMSIgcG9pbnRzPSIxMTgsMzk3LjMxNTksMTkwLDM5Ny4zMTU5LDIwMiw0MDkuMzE1OSwxOTAsNDIxLjMxNTksMTE4LDQyMS4zMTU5LDEwNiw0MDkuMzE1OSwxMTgsMzk3LjMxNTkiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIvPjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjIwIiB4PSIxNTgiIHk9IjQzMS41MjY0Ij55ZXM8L3RleHQ+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTEiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iNzIiIHg9IjExOCIgeT0iNDEzLjEyNCI+dXNlIG9iamVjdHM/PC90ZXh0Pjxwb2x5Z29uIGZpbGw9IiNGMUYxRjEiIHBvaW50cz0iMTU0LDQ5OS42ODcsMTY2LDUxMS42ODcsMTU0LDUyMy42ODcsMTQyLDUxMS42ODcsMTU0LDQ5OS42ODciIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIvPjxyZWN0IGZpbGw9IiNGMUYxRjEiIGhlaWdodD0iMzMuOTY4OCIgcng9IjEyLjUiIHJ5PSIxMi41IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiIHdpZHRoPSIxNzkiIHg9IjY0LjUiIHk9IjU5Mi4wODk0Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTU5IiB4PSI3NC41IiB5PSI2MTMuMjI4Ij5nZW5lcmF0ZSBwb2ludHMgY29zdG1hcDwvdGV4dD48cG9seWdvbiBmaWxsPSIjRjFGMUYxIiBwb2ludHM9IjEyMSw1NDMuNjg3LDE4Nyw1NDMuNjg3LDE5OSw1NTUuNjg3LDE4Nyw1NjcuNjg3LDEyMSw1NjcuNjg3LDEwOSw1NTUuNjg3LDEyMSw1NDMuNjg3IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiLz48dGV4dCBmaWxsPSIjMDAwMDAwIiBmb250LWZhbWlseT0ic2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMSIgbGVuZ3RoQWRqdXN0PSJzcGFjaW5nIiB0ZXh0TGVuZ3RoPSIyMCIgeD0iMTU4IiB5PSI1NzcuODk3NSI+eWVzPC90ZXh0Pjx0ZXh0IGZpbGw9IiMwMDAwMDAiIGZvbnQtZmFtaWx5PSJzYW5zLXNlcmlmIiBmb250LXNpemU9IjExIiBsZW5ndGhBZGp1c3Q9InNwYWNpbmciIHRleHRMZW5ndGg9IjY2IiB4PSIxMjEiIHk9IjU1OS40OTUxIj51c2UgcG9pbnRzPzwvdGV4dD48cG9seWdvbiBmaWxsPSIjRjFGMUYxIiBwb2ludHM9IjE1NCw2NDYuMDU4MSwxNjYsNjU4LjA1ODEsMTU0LDY3MC4wNTgxLDE0Miw2NTguMDU4MSwxNTQsNjQ2LjA1ODEiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MC41OyIvPjxyZWN0IGZpbGw9IiNGMUYxRjEiIGhlaWdodD0iMzMuOTY4OCIgcng9IjEyLjUiIHJ5PSIxMi41IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiIHdpZHRoPSIxMzEiIHg9Ijg4LjUiIHk9IjY5MC4wNTgxIi8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTExIiB4PSI5OC41IiB5PSI3MTEuMTk2OCI+Y29tYmluZSBjb3N0bWFwPC90ZXh0PjxyZWN0IGZpbGw9IiNGMUYxRjEiIGhlaWdodD0iMzMuOTY4OCIgcng9IjEyLjUiIHJ5PSIxMi41IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjAuNTsiIHdpZHRoPSIxMjMiIHg9IjkyLjUiIHk9Ijc0NC4wMjY5Ii8+PHRleHQgZmlsbD0iIzAwMDAwMCIgZm9udC1mYW1pbHk9InNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTIiIGxlbmd0aEFkanVzdD0ic3BhY2luZyIgdGV4dExlbmd0aD0iMTAzIiB4PSIxMDIuNSIgeT0iNzY1LjE2NTUiPnB1Ymxpc2ggY29zdG1hcDwvdGV4dD48ZWxsaXBzZSBjeD0iMTU0IiBjeT0iODA4Ljk5NTYiIGZpbGw9Im5vbmUiIHJ4PSIxMSIgcnk9IjExIiBzdHlsZT0ic3Ryb2tlOiMyMjIyMjI7c3Ryb2tlLXdpZHRoOjEuMDsiLz48ZWxsaXBzZSBjeD0iMTU0IiBjeT0iODA4Ljk5NTYiIGZpbGw9IiMyMjIyMjIiIHJ4PSI2IiByeT0iNiIgc3R5bGU9InN0cm9rZTojMjIyMjIyO3N0cm9rZS13aWR0aDoxLjA7Ii8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMTU0IiB4Mj0iMTU0IiB5MT0iMTExLjI5NjkiIHkyPSIxNDMuMDA3MyIvPjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMTUwLDEzMy4wMDczLDE1NCwxNDMuMDA3MywxNTgsMTMzLjAwNzMsMTU0LDEzNy4wMDczIiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIyMTkiIHgyPSIyNDQiIHkxPSI5OS4yOTY5IiB5Mj0iOTkuMjk2OSIvPjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMjM0LDk1LjI5NjksMjQ0LDk5LjI5NjksMjM0LDEwMy4yOTY5LDIzOCw5OS4yOTY5IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxNTQiIHgyPSIxNTQiIHkxPSI2Ny4yOTY5IiB5Mj0iODcuMjk2OSIvPjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMTUwLDc3LjI5NjksMTU0LDg3LjI5NjksMTU4LDc3LjI5NjksMTU0LDgxLjI5NjkiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjE1NCIgeDI9IjE1NCIgeTE9IjE3Ni45NzYxIiB5Mj0iMTk2Ljk3NjEiLz48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjE1MCwxODYuOTc2MSwxNTQsMTk2Ljk3NjEsMTU4LDE4Ni45NzYxLDE1NCwxOTAuOTc2MSIgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7Ii8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMTU0IiB4Mj0iMTU0IiB5MT0iMjc0Ljk0NDgiIHkyPSIyOTkuMzQ3MiIvPjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMTUwLDI4OS4zNDcyLDE1NCwyOTkuMzQ3MiwxNTgsMjg5LjM0NzIsMTU0LDI5My4zNDcyIiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIyNTYiIHgyPSIyNzkiIHkxPSIyNjIuOTQ0OCIgeTI9IjI2Mi45NDQ4Ii8+PHBvbHlnb24gZmlsbD0iIzE4MTgxOCIgcG9pbnRzPSIyNzUsMzA2LjMzMTUsMjc5LDMxNi4zMzE1LDI4MywzMDYuMzMxNSwyNzksMzEwLjMzMTUiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjI3OSIgeDI9IjI3OSIgeTE9IjI2Mi45NDQ4IiB5Mj0iMzY1LjMxNTkiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIyNzkiIHgyPSIxNjYiIHkxPSIzNjUuMzE1OSIgeTI9IjM2NS4zMTU5Ii8+PHBvbHlnb24gZmlsbD0iIzE4MTgxOCIgcG9pbnRzPSIxNzYsMzYxLjMxNTksMTY2LDM2NS4zMTU5LDE3NiwzNjkuMzE1OSwxNzIsMzY1LjMxNTkiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjE1NCIgeDI9IjE1NCIgeTE9IjMzMy4zMTU5IiB5Mj0iMzUzLjMxNTkiLz48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjE1MCwzNDMuMzE1OSwxNTQsMzUzLjMxNTksMTU4LDM0My4zMTU5LDE1NCwzNDcuMzE1OSIgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7Ii8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMTU0IiB4Mj0iMTU0IiB5MT0iMjMwLjk0NDgiIHkyPSIyNTAuOTQ0OCIvPjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMTUwLDI0MC45NDQ4LDE1NCwyNTAuOTQ0OCwxNTgsMjQwLjk0NDgsMTU0LDI0NC45NDQ4IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxNTQiIHgyPSIxNTQiIHkxPSI0MjEuMzE1OSIgeTI9IjQ0NS43MTgzIi8+PHBvbHlnb24gZmlsbD0iIzE4MTgxOCIgcG9pbnRzPSIxNTAsNDM1LjcxODMsMTU0LDQ0NS43MTgzLDE1OCw0MzUuNzE4MywxNTQsNDM5LjcxODMiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjIwMiIgeDI9IjI1NyIgeTE9IjQwOS4zMTU5IiB5Mj0iNDA5LjMxNTkiLz48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjI1Myw0NTIuNzAyNiwyNTcsNDYyLjcwMjYsMjYxLDQ1Mi43MDI2LDI1Nyw0NTYuNzAyNiIgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7Ii8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMjU3IiB4Mj0iMjU3IiB5MT0iNDA5LjMxNTkiIHkyPSI1MTEuNjg3Ii8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMjU3IiB4Mj0iMTY2IiB5MT0iNTExLjY4NyIgeTI9IjUxMS42ODciLz48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjE3Niw1MDcuNjg3LDE2Niw1MTEuNjg3LDE3Niw1MTUuNjg3LDE3Miw1MTEuNjg3IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxNTQiIHgyPSIxNTQiIHkxPSI0NzkuNjg3IiB5Mj0iNDk5LjY4NyIvPjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMTUwLDQ4OS42ODcsMTU0LDQ5OS42ODcsMTU4LDQ4OS42ODcsMTU0LDQ5My42ODciIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjE1NCIgeDI9IjE1NCIgeTE9IjM3Ny4zMTU5IiB5Mj0iMzk3LjMxNTkiLz48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjE1MCwzODcuMzE1OSwxNTQsMzk3LjMxNTksMTU4LDM4Ny4zMTU5LDE1NCwzOTEuMzE1OSIgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7Ii8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMTU0IiB4Mj0iMTU0IiB5MT0iNTY3LjY4NyIgeTI9IjU5Mi4wODk0Ii8+PHBvbHlnb24gZmlsbD0iIzE4MTgxOCIgcG9pbnRzPSIxNTAsNTgyLjA4OTQsMTU0LDU5Mi4wODk0LDE1OCw1ODIuMDg5NCwxNTQsNTg2LjA4OTQiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjE5OSIgeDI9IjI1My41IiB5MT0iNTU1LjY4NyIgeTI9IjU1NS42ODciLz48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjI0OS41LDU5OS4wNzM3LDI1My41LDYwOS4wNzM3LDI1Ny41LDU5OS4wNzM3LDI1My41LDYwMy4wNzM3IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIyNTMuNSIgeDI9IjI1My41IiB5MT0iNTU1LjY4NyIgeTI9IjY1OC4wNTgxIi8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMjUzLjUiIHgyPSIxNjYiIHkxPSI2NTguMDU4MSIgeTI9IjY1OC4wNTgxIi8+PHBvbHlnb24gZmlsbD0iIzE4MTgxOCIgcG9pbnRzPSIxNzYsNjU0LjA1ODEsMTY2LDY1OC4wNTgxLDE3Niw2NjIuMDU4MSwxNzIsNjU4LjA1ODEiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjE1NCIgeDI9IjE1NCIgeTE9IjYyNi4wNTgxIiB5Mj0iNjQ2LjA1ODEiLz48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjE1MCw2MzYuMDU4MSwxNTQsNjQ2LjA1ODEsMTU4LDYzNi4wNTgxLDE1NCw2NDAuMDU4MSIgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7Ii8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMTU0IiB4Mj0iMTU0IiB5MT0iNTIzLjY4NyIgeTI9IjU0My42ODciLz48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjE1MCw1MzMuNjg3LDE1NCw1NDMuNjg3LDE1OCw1MzMuNjg3LDE1NCw1MzcuNjg3IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48bGluZSBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiIHgxPSIxNTQiIHgyPSIxNTQiIHkxPSI2NzAuMDU4MSIgeTI9IjY5MC4wNTgxIi8+PHBvbHlnb24gZmlsbD0iIzE4MTgxOCIgcG9pbnRzPSIxNTAsNjgwLjA1ODEsMTU0LDY5MC4wNTgxLDE1OCw2ODAuMDU4MSwxNTQsNjg0LjA1ODEiIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIvPjxsaW5lIHN0eWxlPSJzdHJva2U6IzE4MTgxODtzdHJva2Utd2lkdGg6MS4wOyIgeDE9IjE1NCIgeDI9IjE1NCIgeTE9IjcyNC4wMjY5IiB5Mj0iNzQ0LjAyNjkiLz48cG9seWdvbiBmaWxsPSIjMTgxODE4IiBwb2ludHM9IjE1MCw3MzQuMDI2OSwxNTQsNzQ0LjAyNjksMTU4LDczNC4wMjY5LDE1NCw3MzguMDI2OSIgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7Ii8+PGxpbmUgc3R5bGU9InN0cm9rZTojMTgxODE4O3N0cm9rZS13aWR0aDoxLjA7IiB4MT0iMTU0IiB4Mj0iMTU0IiB5MT0iNzc3Ljk5NTYiIHkyPSI3OTcuOTk1NiIvPjxwb2x5Z29uIGZpbGw9IiMxODE4MTgiIHBvaW50cz0iMTUwLDc4Ny45OTU2LDE1NCw3OTcuOTk1NiwxNTgsNzg3Ljk5NTYsMTU0LDc5MS45OTU2IiBzdHlsZT0ic3Ryb2tlOiMxODE4MTg7c3Ryb2tlLXdpZHRoOjEuMDsiLz48IS0tU1JDPVtUUDFCUmlHbTM0RnRGZU1Nb0hLb1lyd1k1dDFTUGFQajhYY0lxYzlrRnBSUWUzemFRVDl5OTFHU0FxWmJjSlRPeWlXTUFWNTJXblQ4RGJQWWZybzJ0XzRxS2ptV0REcFhPeUJnZTQ1cVIyNmoyVkIySXFoSjVLNWJEdUM0TE5MU2NrUERRcWJnbjgySEJiSktPeWtMR2x6LXhqTHg4dF9hVXBQYUtnRi1oRGRVTUF3aG5reUxoS3pXRUswVEx1cXR4YkZ6UUJXU21td2twZ3lldU1VS0JfaXFOZk5iRkZ0Zl9XakZIUlVQMVR6NmNrZS1oLW90N3I4X3VtQzBdLS0+PC9nPjwvc3ZnPg==" class="uml" alt="uml diagram" title=""></p></div>
 
 
 
@@ -13587,7 +13316,7 @@ To cancel the slow stop mode and make the vehicle ready to run again, run the fo
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../shift_decider/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Shift Decider" rel="prev">
+          <a href="../autoware_behavior_velocity_walkway_module/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Index" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -13596,20 +13325,20 @@ To cancel the slow stop mode and make the vehicle ready to run again, run the fo
                 Previous
               </span>
               <div class="md-ellipsis">
-                Shift Decider
+                Index
               </div>
             </div>
           </a>
         
         
           
-          <a href="../trajectory_follower_base/" class="md-footer__link md-footer__link--next" aria-label="Next: Trajectory Follower" rel="next">
+          <a href="../autoware_external_velocity_limit_selector/" class="md-footer__link md-footer__link--next" aria-label="Next: External Velocity Limit Selector" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Trajectory Follower
+                External Velocity Limit Selector
               </div>
             </div>
             <div class="md-footer__button md-icon">
