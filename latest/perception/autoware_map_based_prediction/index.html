@@ -8,20 +8,20 @@
       
       
       
-        <link rel="canonical" href="https://autowarefoundation.github.io/autoware.universe/latest/control/external_cmd_selector/">
+        <link rel="canonical" href="https://autowarefoundation.github.io/autoware.universe/latest/perception/autoware_map_based_prediction/">
       
       
-        <link rel="prev" href="../control_validator/">
+        <link rel="prev" href="../../map/map_tf_generator/">
       
       
-        <link rel="next" href="../lane_departure_checker/">
+        <link rel="next" href="../bytetrack/">
       
       <link rel="icon" href="../../docs/assets/images/autoware-foundation.png">
       <meta name="generator" content="mkdocs-1.4.3, mkdocs-material-9.1.20">
     
     
       
-        <title>external_cmd_selector - Autoware Universe Documentation</title>
+        <title>map_based_prediction - Autoware Universe Documentation</title>
       
     
     
@@ -77,7 +77,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#external_cmd_selector" class="md-skip">
+        <a href="#map_based_prediction" class="md-skip">
           Skip to content
         </a>
       
@@ -116,7 +116,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              external_cmd_selector
+              map_based_prediction
             
           </span>
         </div>
@@ -224,8 +224,6 @@
         
   
   
-    
-  
 
 
   
@@ -237,7 +235,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../autoware_autonomous_emergency_braking/" class="md-tabs__link md-tabs__link--active">
+      <a href="../../control/autoware_autonomous_emergency_braking/" class="md-tabs__link">
         Control
       </a>
     </li>
@@ -341,6 +339,8 @@
         
   
   
+    
+  
 
 
   
@@ -352,7 +352,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="../../perception/bytetrack/" class="md-tabs__link">
+      <a href="./" class="md-tabs__link md-tabs__link--active">
         Perception
       </a>
     </li>
@@ -1685,16 +1685,16 @@
 
   
   
-    
-  
   
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2" >
       
       
         
@@ -1739,7 +1739,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2">
           <span class="md-nav__icon md-icon"></span>
           Control
@@ -1774,7 +1774,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../autoware_autonomous_emergency_braking/">Autoware autonomous emergency braking</a>
+          <a href="../../control/autoware_autonomous_emergency_braking/">Autoware autonomous emergency braking</a>
           
         </div>
       
@@ -1822,14 +1822,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../autoware_joy_controller/">Autoware joy controller</a>
+          <a href="../../control/autoware_external_cmd_selector/">Autoware external cmd selector</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_2">
           <span class="md-nav__icon md-icon"></span>
-          Autoware joy controller
+          Autoware external cmd selector
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1865,42 +1865,22 @@
             
           
         
-          
-        
       
       
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../autoware_mpc_lateral_controller/">Autoware mpc lateral controller</a>
-          
-            <label for="__nav_2_3">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
+          <a href="../../control/autoware_joy_controller/">Autoware joy controller</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_3">
           <span class="md-nav__icon md-icon"></span>
-          Autoware mpc lateral controller
+          Autoware joy controller
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../autoware_mpc_lateral_controller/model_predictive_control_algorithm/" class="md-nav__link">
-        MPC Algorithm
-      </a>
-    </li>
-  
-
             
           
         </ul>
@@ -1933,22 +1913,42 @@
             
           
         
+          
+        
       
       
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../autoware_pid_longitudinal_controller/">Autoware pid longitudinal controller</a>
+          <a href="../../control/autoware_mpc_lateral_controller/">Autoware mpc lateral controller</a>
+          
+            <label for="__nav_2_4">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_4_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_4">
           <span class="md-nav__icon md-icon"></span>
-          Autoware pid longitudinal controller
+          Autoware mpc lateral controller
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../control/autoware_mpc_lateral_controller/model_predictive_control_algorithm/" class="md-nav__link">
+        MPC Algorithm
+      </a>
+    </li>
+  
+
             
           
         </ul>
@@ -1986,14 +1986,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../autoware_smart_mpc_trajectory_follower/">Autoware smart mpc trajectory follower</a>
+          <a href="../../control/autoware_pid_longitudinal_controller/">Autoware pid longitudinal controller</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_5_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_5">
           <span class="md-nav__icon md-icon"></span>
-          Autoware smart mpc trajectory follower
+          Autoware pid longitudinal controller
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2034,14 +2034,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../autoware_vehicle_cmd_gate/">Autoware vehicle cmd gate</a>
+          <a href="../../control/autoware_smart_mpc_trajectory_follower/">Autoware smart mpc trajectory follower</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_6_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_6">
           <span class="md-nav__icon md-icon"></span>
-          Autoware vehicle cmd gate
+          Autoware smart mpc trajectory follower
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2082,14 +2082,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../control_performance_analysis/">Control performance analysis</a>
+          <a href="../../control/autoware_vehicle_cmd_gate/">Autoware vehicle cmd gate</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_7">
           <span class="md-nav__icon md-icon"></span>
-          Control performance analysis
+          Autoware vehicle cmd gate
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2130,14 +2130,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../control_validator/">Control validator</a>
+          <a href="../../control/control_performance_analysis/">Control performance analysis</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_8_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_8">
           <span class="md-nav__icon md-icon"></span>
-          Control validator
+          Control performance analysis
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2154,18 +2154,18 @@
               
   
   
-    
-  
   
     
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
       
       
-      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_9" checked>
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_2_9" >
       
       
         
@@ -2177,15 +2177,15 @@
       
         
         
-        <div class="md-nav__link md-nav__link--index md-nav__link--active">
-          <a href="./">External cmd selector</a>
+        <div class="md-nav__link md-nav__link--index ">
+          <a href="../../control/control_validator/">Control validator</a>
           
         </div>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_9_label" aria-expanded="true">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_9_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_2_9">
           <span class="md-nav__icon md-icon"></span>
-          External cmd selector
+          Control validator
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -2226,7 +2226,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../lane_departure_checker/">Lane departure checker</a>
+          <a href="../../control/lane_departure_checker/">Lane departure checker</a>
           
         </div>
       
@@ -2274,7 +2274,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../obstacle_collision_checker/">Obstacle collision checker</a>
+          <a href="../../control/obstacle_collision_checker/">Obstacle collision checker</a>
           
         </div>
       
@@ -2322,7 +2322,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../operation_mode_transition_manager/">Operation mode transition manager</a>
+          <a href="../../control/operation_mode_transition_manager/">Operation mode transition manager</a>
           
         </div>
       
@@ -2370,7 +2370,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../predicted_path_checker/">Predicted path checker</a>
+          <a href="../../control/predicted_path_checker/">Predicted path checker</a>
           
         </div>
       
@@ -2418,7 +2418,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../pure_pursuit/">Pure pursuit</a>
+          <a href="../../control/pure_pursuit/">Pure pursuit</a>
           
         </div>
       
@@ -2466,7 +2466,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../shift_decider/">Shift decider</a>
+          <a href="../../control/shift_decider/">Shift decider</a>
           
         </div>
       
@@ -2514,7 +2514,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../trajectory_follower_base/">Trajectory follower base</a>
+          <a href="../../control/trajectory_follower_base/">Trajectory follower base</a>
           
         </div>
       
@@ -2564,7 +2564,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../trajectory_follower_node/">Trajectory follower node</a>
+          <a href="../../control/trajectory_follower_node/">Trajectory follower node</a>
           
             <label for="__nav_2_17">
               <span class="md-nav__icon md-icon"></span>
@@ -2620,7 +2620,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../trajectory_follower_node/design/simple_trajectory_follower-design/" class="md-nav__link">
+      <a href="../../control/trajectory_follower_node/design/simple_trajectory_follower-design/" class="md-nav__link">
         Simple Trajectory Follower
       </a>
     </li>
@@ -4958,16 +4958,16 @@
 
   
   
+    
+  
   
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
       
       
       
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" checked>
       
       
         
@@ -5062,7 +5062,7 @@
           <span class="md-nav__icon md-icon"></span>
         </label>
       
-      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_7">
           <span class="md-nav__icon md-icon"></span>
           Perception
@@ -5073,18 +5073,18 @@
               
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
       
       
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_1" >
+      <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7_1" checked>
       
       
         
@@ -5096,15 +5096,15 @@
       
         
         
-        <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/bytetrack/">Bytetrack</a>
+        <div class="md-nav__link md-nav__link--index md-nav__link--active">
+          <a href="./">Autoware map based prediction</a>
           
         </div>
       
-      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="false">
+      <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_1_label" aria-expanded="true">
         <label class="md-nav__title" for="__nav_7_1">
           <span class="md-nav__icon md-icon"></span>
-          Bytetrack
+          Autoware map based prediction
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -5145,14 +5145,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/cluster_merger/">Cluster merger</a>
+          <a href="../bytetrack/">Bytetrack</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_2_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_2">
           <span class="md-nav__icon md-icon"></span>
-          Cluster merger
+          Bytetrack
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -5193,14 +5193,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/compare_map_segmentation/">Compare map segmentation</a>
+          <a href="../cluster_merger/">Cluster merger</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_3_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_3">
           <span class="md-nav__icon md-icon"></span>
-          Compare map segmentation
+          Cluster merger
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -5241,14 +5241,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/crosswalk_traffic_light_estimator/">Crosswalk traffic light estimator</a>
+          <a href="../compare_map_segmentation/">Compare map segmentation</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_4_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_4">
           <span class="md-nav__icon md-icon"></span>
-          Crosswalk traffic light estimator
+          Compare map segmentation
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -5289,14 +5289,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/detected_object_feature_remover/">Detected object feature remover</a>
+          <a href="../crosswalk_traffic_light_estimator/">Crosswalk traffic light estimator</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_5_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_5">
           <span class="md-nav__icon md-icon"></span>
-          Detected object feature remover
+          Crosswalk traffic light estimator
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -5332,90 +5332,22 @@
             
           
         
-          
-        
-          
-        
-          
-        
-          
-        
       
       
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/detected_object_validation/">Detected object validation</a>
-          
-            <label for="__nav_7_6">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
+          <a href="../detected_object_feature_remover/">Detected object feature remover</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_6_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_6">
           <span class="md-nav__icon md-icon"></span>
-          Detected object validation
+          Detected object feature remover
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perception/detected_object_validation/object-lanelet-filter/" class="md-nav__link">
-        object_lanelet_filter
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perception/detected_object_validation/object-position-filter/" class="md-nav__link">
-        object_position_filter
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perception/detected_object_validation/obstacle-pointcloud-based-validator/" class="md-nav__link">
-        obstacle pointcloud based validator
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perception/detected_object_validation/occupancy-grid-based-validator/" class="md-nav__link">
-        occupancy grid based validator
-      </a>
-    </li>
-  
-
             
           
         </ul>
@@ -5448,22 +5380,90 @@
             
           
         
+          
+        
+          
+        
+          
+        
+          
+        
       
       
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/detection_by_tracker/">Detection by tracker</a>
+          <a href="../detected_object_validation/">Detected object validation</a>
+          
+            <label for="__nav_7_7">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_7_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_7">
           <span class="md-nav__icon md-icon"></span>
-          Detection by tracker
+          Detected object validation
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../detected_object_validation/object-lanelet-filter/" class="md-nav__link">
+        object_lanelet_filter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../detected_object_validation/object-position-filter/" class="md-nav__link">
+        object_position_filter
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../detected_object_validation/obstacle-pointcloud-based-validator/" class="md-nav__link">
+        obstacle pointcloud based validator
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../detected_object_validation/occupancy-grid-based-validator/" class="md-nav__link">
+        occupancy grid based validator
+      </a>
+    </li>
+  
+
             
           
         </ul>
@@ -5501,14 +5501,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/elevation_map_loader/">Elevation map loader</a>
+          <a href="../detection_by_tracker/">Detection by tracker</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_8_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_8">
           <span class="md-nav__icon md-icon"></span>
-          Elevation map loader
+          Detection by tracker
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -5549,14 +5549,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/euclidean_cluster/">Euclidean cluster</a>
+          <a href="../elevation_map_loader/">Elevation map loader</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_9_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_9">
           <span class="md-nav__icon md-icon"></span>
-          Euclidean cluster
+          Elevation map loader
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -5592,114 +5592,22 @@
             
           
         
-          
-        
       
       
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/ground_segmentation/">Ground segmentation</a>
-          
-            <label for="__nav_7_10">
-              <span class="md-nav__icon md-icon"></span>
-            </label>
+          <a href="../euclidean_cluster/">Euclidean cluster</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_10_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_10">
           <span class="md-nav__icon md-icon"></span>
-          Ground segmentation
+          Euclidean cluster
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
-            
-          
-            
-              
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-      
-      
-        
-      
-      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_10_2" >
-      
-      
-        
-          
-        
-          
-        
-          
-        
-      
-      
-        <label class="md-nav__link" for="__nav_7_10_2" id="__nav_7_10_2_label" tabindex="0">
-          Docs
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_10_2_label" aria-expanded="false">
-        <label class="md-nav__title" for="__nav_7_10_2">
-          <span class="md-nav__icon md-icon"></span>
-          Docs
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perception/ground_segmentation/docs/ransac-ground-filter/" class="md-nav__link">
-        RANSAC Ground Filter
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perception/ground_segmentation/docs/ray-ground-filter/" class="md-nav__link">
-        Ray Ground Filter
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perception/ground_segmentation/docs/scan-ground-filter/" class="md-nav__link">
-        Scan Ground Filter
-      </a>
-    </li>
-  
-
-            
-          
-        </ul>
-      </nav>
-    </li>
-  
-
             
           
         </ul>
@@ -5739,7 +5647,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/image_projection_based_fusion/">Image projection based fusion</a>
+          <a href="../ground_segmentation/">Ground segmentation</a>
           
             <label for="__nav_7_11">
               <span class="md-nav__icon md-icon"></span>
@@ -5750,7 +5658,7 @@
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_11_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_11">
           <span class="md-nav__icon md-icon"></span>
-          Image projection based fusion
+          Ground segmentation
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -5779,10 +5687,6 @@
         
           
         
-          
-        
-          
-        
       
       
         <label class="md-nav__link" for="__nav_7_11_2" id="__nav_7_11_2_label" tabindex="0">
@@ -5803,8 +5707,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/image_projection_based_fusion/docs/pointpainting-fusion/" class="md-nav__link">
-        pointpainting_fusion
+      <a href="../ground_segmentation/docs/ransac-ground-filter/" class="md-nav__link">
+        RANSAC Ground Filter
       </a>
     </li>
   
@@ -5817,8 +5721,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/image_projection_based_fusion/docs/roi-cluster-fusion/" class="md-nav__link">
-        roi_cluster_fusion
+      <a href="../ground_segmentation/docs/ray-ground-filter/" class="md-nav__link">
+        Ray Ground Filter
       </a>
     </li>
   
@@ -5831,36 +5735,8 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/image_projection_based_fusion/docs/roi-detected-object-fusion/" class="md-nav__link">
-        roi_detected_object_fusion
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perception/image_projection_based_fusion/docs/roi-pointcloud-fusion/" class="md-nav__link">
-        roi_pointcloud_fusion
-      </a>
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../perception/image_projection_based_fusion/docs/segmentation-pointcloud-fusion/" class="md-nav__link">
-        segmentation_pointcloud_fusion
+      <a href="../ground_segmentation/docs/scan-ground-filter/" class="md-nav__link">
+        Scan Ground Filter
       </a>
     </li>
   
@@ -5904,22 +5780,146 @@
             
           
         
+          
+        
       
       
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/lidar_apollo_instance_segmentation/">Lidar apollo instance segmentation</a>
+          <a href="../image_projection_based_fusion/">Image projection based fusion</a>
+          
+            <label for="__nav_7_12">
+              <span class="md-nav__icon md-icon"></span>
+            </label>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_12_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_12">
           <span class="md-nav__icon md-icon"></span>
-          Lidar apollo instance segmentation
+          Image projection based fusion
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
+            
+          
+            
+              
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+      
+      
+        
+      
+      <input class="md-nav__toggle md-toggle md-toggle--indeterminate" type="checkbox" id="__nav_7_12_2" >
+      
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+      
+      
+        <label class="md-nav__link" for="__nav_7_12_2" id="__nav_7_12_2_label" tabindex="0">
+          Docs
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_7_12_2_label" aria-expanded="false">
+        <label class="md-nav__title" for="__nav_7_12_2">
+          <span class="md-nav__icon md-icon"></span>
+          Docs
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../image_projection_based_fusion/docs/pointpainting-fusion/" class="md-nav__link">
+        pointpainting_fusion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../image_projection_based_fusion/docs/roi-cluster-fusion/" class="md-nav__link">
+        roi_cluster_fusion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../image_projection_based_fusion/docs/roi-detected-object-fusion/" class="md-nav__link">
+        roi_detected_object_fusion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../image_projection_based_fusion/docs/roi-pointcloud-fusion/" class="md-nav__link">
+        roi_pointcloud_fusion
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../image_projection_based_fusion/docs/segmentation-pointcloud-fusion/" class="md-nav__link">
+        segmentation_pointcloud_fusion
+      </a>
+    </li>
+  
+
+            
+          
+        </ul>
+      </nav>
+    </li>
+  
+
             
           
         </ul>
@@ -5957,14 +5957,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/lidar_apollo_segmentation_tvm/">Lidar apollo segmentation tvm</a>
+          <a href="../lidar_apollo_instance_segmentation/">Lidar apollo instance segmentation</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_13_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_13">
           <span class="md-nav__icon md-icon"></span>
-          Lidar apollo segmentation tvm
+          Lidar apollo instance segmentation
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -6005,14 +6005,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/lidar_apollo_segmentation_tvm_nodes/">Lidar apollo segmentation tvm nodes</a>
+          <a href="../lidar_apollo_segmentation_tvm/">Lidar apollo segmentation tvm</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_14_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_14">
           <span class="md-nav__icon md-icon"></span>
-          Lidar apollo segmentation tvm nodes
+          Lidar apollo segmentation tvm
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -6053,14 +6053,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/lidar_centerpoint/">Lidar centerpoint</a>
+          <a href="../lidar_apollo_segmentation_tvm_nodes/">Lidar apollo segmentation tvm nodes</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_15_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_15">
           <span class="md-nav__icon md-icon"></span>
-          Lidar centerpoint
+          Lidar apollo segmentation tvm nodes
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -6101,14 +6101,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/lidar_centerpoint_tvm/">Lidar centerpoint tvm</a>
+          <a href="../lidar_centerpoint/">Lidar centerpoint</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_16_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_16">
           <span class="md-nav__icon md-icon"></span>
-          Lidar centerpoint tvm
+          Lidar centerpoint
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -6149,14 +6149,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/lidar_transfusion/">Lidar transfusion</a>
+          <a href="../lidar_centerpoint_tvm/">Lidar centerpoint tvm</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_17_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_17">
           <span class="md-nav__icon md-icon"></span>
-          Lidar transfusion
+          Lidar centerpoint tvm
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -6197,14 +6197,14 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/map_based_prediction/">Map based prediction</a>
+          <a href="../lidar_transfusion/">Lidar transfusion</a>
           
         </div>
       
       <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_7_18_label" aria-expanded="false">
         <label class="md-nav__title" for="__nav_7_18">
           <span class="md-nav__icon md-icon"></span>
-          Map based prediction
+          Lidar transfusion
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -6247,7 +6247,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/multi_object_tracker/">Multi object tracker</a>
+          <a href="../multi_object_tracker/">Multi object tracker</a>
           
             <label for="__nav_7_19">
               <span class="md-nav__icon md-icon"></span>
@@ -6270,7 +6270,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/multi_object_tracker/models/" class="md-nav__link">
+      <a href="../multi_object_tracker/models/" class="md-nav__link">
         Models used in this module
       </a>
     </li>
@@ -6313,7 +6313,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/object_merger/">Object merger</a>
+          <a href="../object_merger/">Object merger</a>
           
         </div>
       
@@ -6361,7 +6361,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/object_range_splitter/">Object range splitter</a>
+          <a href="../object_range_splitter/">Object range splitter</a>
           
         </div>
       
@@ -6409,7 +6409,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/object_velocity_splitter/">Object velocity splitter</a>
+          <a href="../object_velocity_splitter/">Object velocity splitter</a>
           
         </div>
       
@@ -6457,7 +6457,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/occupancy_grid_map_outlier_filter/">Occupancy grid map outlier filter</a>
+          <a href="../occupancy_grid_map_outlier_filter/">Occupancy grid map outlier filter</a>
           
         </div>
       
@@ -6511,7 +6511,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/probabilistic_occupancy_grid_map/">Probabilistic occupancy grid map</a>
+          <a href="../probabilistic_occupancy_grid_map/">Probabilistic occupancy grid map</a>
           
             <label for="__nav_7_24">
               <span class="md-nav__icon md-icon"></span>
@@ -6534,7 +6534,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/probabilistic_occupancy_grid_map/laserscan-based-occupancy-grid-map/" class="md-nav__link">
+      <a href="../probabilistic_occupancy_grid_map/laserscan-based-occupancy-grid-map/" class="md-nav__link">
         laserscan based occupancy grid map
       </a>
     </li>
@@ -6548,7 +6548,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/probabilistic_occupancy_grid_map/pointcloud-based-occupancy-grid-map/" class="md-nav__link">
+      <a href="../probabilistic_occupancy_grid_map/pointcloud-based-occupancy-grid-map/" class="md-nav__link">
         pointcloud based occupancy grid map
       </a>
     </li>
@@ -6562,7 +6562,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/probabilistic_occupancy_grid_map/synchronized_grid_map_fusion/" class="md-nav__link">
+      <a href="../probabilistic_occupancy_grid_map/synchronized_grid_map_fusion/" class="md-nav__link">
         synchronized OGM fusion
       </a>
     </li>
@@ -6605,7 +6605,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/radar_crossing_objects_noise_filter/">Radar crossing objects noise filter</a>
+          <a href="../radar_crossing_objects_noise_filter/">Radar crossing objects noise filter</a>
           
         </div>
       
@@ -6655,7 +6655,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/radar_fusion_to_detected_object/">Radar fusion to detected object</a>
+          <a href="../radar_fusion_to_detected_object/">Radar fusion to detected object</a>
           
             <label for="__nav_7_26">
               <span class="md-nav__icon md-icon"></span>
@@ -6711,7 +6711,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/radar_fusion_to_detected_object/docs/algorithm/" class="md-nav__link">
+      <a href="../radar_fusion_to_detected_object/docs/algorithm/" class="md-nav__link">
         Algorithm
       </a>
     </li>
@@ -6761,7 +6761,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/radar_object_clustering/">Radar object clustering</a>
+          <a href="../radar_object_clustering/">Radar object clustering</a>
           
         </div>
       
@@ -6811,7 +6811,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/radar_object_tracker/">Radar object tracker</a>
+          <a href="../radar_object_tracker/">Radar object tracker</a>
           
             <label for="__nav_7_28">
               <span class="md-nav__icon md-icon"></span>
@@ -6834,7 +6834,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/radar_object_tracker/models/" class="md-nav__link">
+      <a href="../radar_object_tracker/models/" class="md-nav__link">
         models
       </a>
     </li>
@@ -6877,7 +6877,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/radar_tracks_msgs_converter/">Radar tracks msgs converter</a>
+          <a href="../radar_tracks_msgs_converter/">Radar tracks msgs converter</a>
           
         </div>
       
@@ -6938,7 +6938,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../perception/raindrop_cluster_filter/raindrop_cluster_filter/" class="md-nav__link">
+      <a href="../raindrop_cluster_filter/raindrop_cluster_filter/" class="md-nav__link">
         low_intensity_cluster_filter
       </a>
     </li>
@@ -6981,7 +6981,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/shape_estimation/">Shape estimation</a>
+          <a href="../shape_estimation/">Shape estimation</a>
           
         </div>
       
@@ -7029,7 +7029,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/simple_object_merger/">Simple object merger</a>
+          <a href="../simple_object_merger/">Simple object merger</a>
           
         </div>
       
@@ -7077,7 +7077,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/tensorrt_classifier/">Tensorrt classifier</a>
+          <a href="../tensorrt_classifier/">Tensorrt classifier</a>
           
         </div>
       
@@ -7125,7 +7125,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/tensorrt_yolox/">Tensorrt yolox</a>
+          <a href="../tensorrt_yolox/">Tensorrt yolox</a>
           
         </div>
       
@@ -7173,7 +7173,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/tracking_object_merger/">Tracking object merger</a>
+          <a href="../tracking_object_merger/">Tracking object merger</a>
           
         </div>
       
@@ -7221,7 +7221,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/traffic_light_arbiter/">Traffic light arbiter</a>
+          <a href="../traffic_light_arbiter/">Traffic light arbiter</a>
           
         </div>
       
@@ -7269,7 +7269,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/traffic_light_classifier/">Traffic light classifier</a>
+          <a href="../traffic_light_classifier/">Traffic light classifier</a>
           
         </div>
       
@@ -7317,7 +7317,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/traffic_light_fine_detector/">Traffic light fine detector</a>
+          <a href="../traffic_light_fine_detector/">Traffic light fine detector</a>
           
         </div>
       
@@ -7365,7 +7365,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/traffic_light_map_based_detector/">Traffic light map based detector</a>
+          <a href="../traffic_light_map_based_detector/">Traffic light map based detector</a>
           
         </div>
       
@@ -7413,7 +7413,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/traffic_light_multi_camera_fusion/">Traffic light multi camera fusion</a>
+          <a href="../traffic_light_multi_camera_fusion/">Traffic light multi camera fusion</a>
           
         </div>
       
@@ -7461,7 +7461,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/traffic_light_occlusion_predictor/">Traffic light occlusion predictor</a>
+          <a href="../traffic_light_occlusion_predictor/">Traffic light occlusion predictor</a>
           
         </div>
       
@@ -7509,7 +7509,7 @@
         
         
         <div class="md-nav__link md-nav__link--index ">
-          <a href="../../perception/traffic_light_visualization/">Traffic light visualization</a>
+          <a href="../traffic_light_visualization/">Traffic light visualization</a>
           
         </div>
       
@@ -8176,7 +8176,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../planning/behavior_velocity_occlusion_spot_module" class="md-nav__link">
+      <a href="../../planning/autoware_behavior_velocity_occlusion_spot_module" class="md-nav__link">
         Occlusion Spot
       </a>
     </li>
@@ -13070,36 +13070,132 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#purpose" class="md-nav__link">
-    Purpose
+  <a href="#role" class="md-nav__link">
+    Role
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#input-output" class="md-nav__link">
-    Input / Output
+  <a href="#assumptions" class="md-nav__link">
+    Assumptions
   </a>
   
-    <nav class="md-nav" aria-label="Input / Output">
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inner-workings-algorithms" class="md-nav__link">
+    Inner-workings / Algorithms
+  </a>
+  
+    <nav class="md-nav" aria-label="Inner-workings / Algorithms">
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#input-topics" class="md-nav__link">
-    Input topics
+  <a href="#flow-chart" class="md-nav__link">
+    Flow chart
   </a>
   
 </li>
         
           <li class="md-nav__item">
-  <a href="#output-topics" class="md-nav__link">
-    Output topics
+  <a href="#path-prediction-for-road-users" class="md-nav__link">
+    Path prediction for road users
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tuning-lane-change-detection-logic" class="md-nav__link">
+    Tuning lane change detection logic
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-generation" class="md-nav__link">
+    Path generation
   </a>
   
 </li>
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#using-vehicle-acceleration-for-path-prediction-for-vehicle-obstacles" class="md-nav__link">
+    Using Vehicle Acceleration for Path Prediction (for Vehicle Obstacles)
+  </a>
+  
+    <nav class="md-nav" aria-label="Using Vehicle Acceleration for Path Prediction (for Vehicle Obstacles)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#decaying-acceleration-model" class="md-nav__link">
+    Decaying Acceleration Model
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#path-prediction-for-crosswalk-users" class="md-nav__link">
+    Path prediction for crosswalk users
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#inputs-outputs" class="md-nav__link">
+    Inputs / Outputs
+  </a>
+  
+    <nav class="md-nav" aria-label="Inputs / Outputs">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#input" class="md-nav__link">
+    Input
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#output" class="md-nav__link">
+    Output
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parameters" class="md-nav__link">
+    Parameters
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#assumptions-known-limits" class="md-nav__link">
+    Assumptions / Known limits
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" class="md-nav__link">
+    Reference
+  </a>
   
 </li>
       
@@ -13121,64 +13217,250 @@
   
 
 
-<div><h1 id="external_cmd_selector">external_cmd_selector<a class="headerlink" href="#external_cmd_selector" title="Permanent link">#</a></h1>
-<h2 id="purpose">Purpose<a class="headerlink" href="#purpose" title="Permanent link">#</a></h2>
-<p><code>external_cmd_selector</code> is the package to publish <code>external_control_cmd</code>, <code>gear_cmd</code>, <code>hazard_lights_cmd</code>, <code>heartbeat</code> and <code>turn_indicators_cmd</code>, according to the current mode, which is <code>remote</code> or <code>local</code>.</p>
-<p>The current mode is set via service, <code>remote</code> is remotely operated, <code>local</code> is to use the values calculated by Autoware.</p>
-<h2 id="input-output">Input / Output<a class="headerlink" href="#input-output" title="Permanent link">#</a></h2>
-<h3 id="input-topics">Input topics<a class="headerlink" href="#input-topics" title="Permanent link">#</a></h3>
+<div><h1 id="map_based_prediction">map_based_prediction<a class="headerlink" href="#map_based_prediction" title="Permanent link">#</a></h1>
+<h2 id="role">Role<a class="headerlink" href="#role" title="Permanent link">#</a></h2>
+<p><code>map_based_prediction</code> is a module to predict the future paths (and their probabilities) of other vehicles and pedestrians according to the shape of the map and the surrounding environment.</p>
+<h2 id="assumptions">Assumptions<a class="headerlink" href="#assumptions" title="Permanent link">#</a></h2>
+<ul>
+<li>The following information about the target obstacle is needed<ul>
+<li>Label (type of person, car, etc.)</li>
+<li>The object position in the current time and predicted position in the future time.</li>
+</ul>
+</li>
+<li>The following information about the surrounding environment is needed<ul>
+<li>Road network information with Lanelet2 format</li>
+</ul>
+</li>
+</ul>
+<h2 id="inner-workings-algorithms">Inner-workings / Algorithms<a class="headerlink" href="#inner-workings-algorithms" title="Permanent link">#</a></h2>
+<h3 id="flow-chart">Flow chart<a class="headerlink" href="#flow-chart" title="Permanent link">#</a></h3>
+<div align="center">
+  <img src="media/map_based_prediction_flow.drawio.svg" width="20%">
+</div>
+
+<h3 id="path-prediction-for-road-users">Path prediction for road users<a class="headerlink" href="#path-prediction-for-road-users" title="Permanent link">#</a></h3>
+<h4 id="remove-old-object-history">Remove old object history<a class="headerlink" href="#remove-old-object-history" title="Permanent link">#</a></h4>
+<p>Store time-series data of objects to determine the vehicle's route and to detect lane change for several duration. Object Data contains the object's position, speed, and time information.</p>
+<h4 id="get-current-lanelet-and-update-object-history">Get current lanelet and update Object history<a class="headerlink" href="#get-current-lanelet-and-update-object-history" title="Permanent link">#</a></h4>
+<p>Search one or more lanelets satisfying the following conditions for each target object and store them in the ObjectData.</p>
+<ul>
+<li>The CoG of the object must be inside the lanelet.</li>
+<li>The centerline of the lanelet must have two or more points.</li>
+<li>The angle difference between the lanelet and the direction of the object must be within the threshold given by the parameters.<ul>
+<li>The angle flip is allowed, the condition is <code>diff_yaw &lt; threshold or diff_yaw &gt; pi - threshold</code>.</li>
+</ul>
+</li>
+<li>The lanelet must be reachable from the lanelet recorded in the past history.</li>
+</ul>
+<h4 id="get-predicted-reference-path">Get predicted reference path<a class="headerlink" href="#get-predicted-reference-path" title="Permanent link">#</a></h4>
+<ul>
+<li>Get reference path:<ul>
+<li>Create a reference path for the object from the associated lanelet.</li>
+</ul>
+</li>
+<li>Predict object maneuver:<ul>
+<li>Generate predicted paths for the object.</li>
+<li>Assign probability to each maneuver of <code>Lane Follow</code>, <code>Left Lane Change</code>, and <code>Right Lane Change</code> based on the object history and the reference path obtained in the first step.</li>
+<li>Lane change decision is based on two domains:<ul>
+<li>Geometric domain: the lateral distance between the center of gravity of the object and left/right boundaries of the lane.</li>
+<li>Time domain: estimated time margin for the object to reach the left/right bound.</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p>The conditions for left lane change detection are:</p>
+<ul>
+<li>Check if the distance to the left lane boundary is less than the distance to the right lane boundary.</li>
+<li>Check if the distance to the left lane boundary is less than a <code>dist_threshold_to_bound_</code>.</li>
+<li>Check if the lateral velocity direction is towards the left lane boundary.</li>
+<li>Check if the time to reach the left lane boundary is less than <code>time_threshold_to_bound_</code>.</li>
+</ul>
+<p>Lane change logics is illustrated in the figure below.An example of how to tune the parameters is described later.</p>
+<p><img alt="lane change detection" src="media/lane_change_detection.drawio.svg"></p>
+<ul>
+<li>Calculate object probability:<ul>
+<li>The path probability obtained above is calculated based on the current position and angle of the object.</li>
+</ul>
+</li>
+<li>Refine predicted paths for smooth movement:<ul>
+<li>The generated predicted paths are recomputed to take the vehicle dynamics into account.</li>
+<li>The path is calculated with minimum jerk trajectory implemented by 4th/5th order spline for lateral/longitudinal motion.</li>
+</ul>
+</li>
+</ul>
+<h3 id="tuning-lane-change-detection-logic">Tuning lane change detection logic<a class="headerlink" href="#tuning-lane-change-detection-logic" title="Permanent link">#</a></h3>
+<p>Currently we provide three parameters to tune lane change detection:</p>
+<ul>
+<li><code>dist_threshold_to_bound_</code>: maximum distance from lane boundary allowed for lane changing vehicle</li>
+<li><code>time_threshold_to_bound_</code>: maximum time allowed for lane change vehicle to reach the boundary</li>
+<li><code>cutoff_freq_of_velocity_lpf_</code>: cutoff frequency of low pass filter for lateral velocity</li>
+</ul>
+<p>You can change these parameters in rosparam in the table below.</p>
 <table>
 <thead>
 <tr>
-<th>Name</th>
-<th>Type</th>
-<th>Description</th>
+<th>param name</th>
+<th>default value</th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td><code>/api/external/set/command/local/control</code></td>
-<td>TBD</td>
-<td>Local. Calculated control value.</td>
+<td><code>dist_threshold_for_lane_change_detection</code></td>
+<td><code>1.0</code> [m]</td>
 </tr>
 <tr>
-<td><code>/api/external/set/command/local/heartbeat</code></td>
-<td>TBD</td>
-<td>Local. Heartbeat.</td>
+<td><code>time_threshold_for_lane_change_detection</code></td>
+<td><code>5.0</code> [s]</td>
 </tr>
 <tr>
-<td><code>/api/external/set/command/local/shift</code></td>
-<td>TBD</td>
-<td>Local. Gear shift like drive, rear and etc.</td>
-</tr>
-<tr>
-<td><code>/api/external/set/command/local/turn_signal</code></td>
-<td>TBD</td>
-<td>Local. Turn signal like left turn, right turn and etc.</td>
-</tr>
-<tr>
-<td><code>/api/external/set/command/remote/control</code></td>
-<td>TBD</td>
-<td>Remote. Calculated control value.</td>
-</tr>
-<tr>
-<td><code>/api/external/set/command/remote/heartbeat</code></td>
-<td>TBD</td>
-<td>Remote. Heartbeat.</td>
-</tr>
-<tr>
-<td><code>/api/external/set/command/remote/shift</code></td>
-<td>TBD</td>
-<td>Remote. Gear shift like drive, rear and etc.</td>
-</tr>
-<tr>
-<td><code>/api/external/set/command/remote/turn_signal</code></td>
-<td>TBD</td>
-<td>Remote. Turn signal like left turn, right turn and etc.</td>
+<td><code>cutoff_freq_of_velocity_for_lane_change_detection</code></td>
+<td><code>0.1</code> [Hz]</td>
 </tr>
 </tbody>
 </table>
-<h3 id="output-topics">Output topics<a class="headerlink" href="#output-topics" title="Permanent link">#</a></h3>
+<h4 id="tuning-threshold-parameters">Tuning threshold parameters<a class="headerlink" href="#tuning-threshold-parameters" title="Permanent link">#</a></h4>
+<p>Increasing these two parameters will slow down and stabilize the lane change estimation.</p>
+<p>Normally, we recommend tuning only <code>time_threshold_for_lane_change_detection</code> because it is the more important factor for lane change decision.</p>
+<h4 id="tuning-lateral-velocity-calculation">Tuning lateral velocity calculation<a class="headerlink" href="#tuning-lateral-velocity-calculation" title="Permanent link">#</a></h4>
+<p>Lateral velocity calculation is also a very important factor for lane change decision because it is used in the time domain decision.</p>
+<p>The predicted time to reach the lane boundary is calculated by</p>
+<div class="arithmatex">\[
+t_{predicted} = \dfrac{d_{lat}}{v_{lat}}
+\]</div>
+<p>where <span class="arithmatex">\(d_{lat}\)</span> and <span class="arithmatex">\(v_{lat}\)</span> represent the lateral distance to the lane boundary and the lateral velocity, respectively.</p>
+<p>Lowering the cutoff frequency of the low-pass filter for lateral velocity will make the lane change decision more stable but slower. Our setting is very conservative, so you may increase this parameter if you want to make the lane change decision faster.</p>
+<p>For the additional information, here we show how we calculate lateral velocity.</p>
+<table>
+<thead>
+<tr>
+<th>lateral velocity calculation method</th>
+<th>equation</th>
+<th>description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>[<strong>applied</strong>] time derivative of lateral distance</td>
+<td><span class="arithmatex">\(\dfrac{\Delta d_{lat}}{\Delta t}\)</span></td>
+<td>Currently, we use this method to deal with winding roads. Since this time differentiation easily becomes noisy, we also use a low-pass filter to get smoothed velocity.</td>
+</tr>
+<tr>
+<td>[not applied] Object Velocity Projection to Lateral Direction</td>
+<td><span class="arithmatex">\(v_{obj} \sin(\theta)\)</span></td>
+<td>Normally, object velocities are less noisy than the time derivative of lateral distance. But the yaw difference <span class="arithmatex">\(\theta\)</span> between the lane and object directions sometimes becomes discontinuous, so we did not adopt this method.</td>
+</tr>
+</tbody>
+</table>
+<p>Currently, we use the upper method with a low-pass filter to calculate lateral velocity.</p>
+<h3 id="path-generation">Path generation<a class="headerlink" href="#path-generation" title="Permanent link">#</a></h3>
+<p>Path generation is generated on the frenet frame. The path is generated by the following steps:</p>
+<ol>
+<li>Get the frenet frame of the reference path.</li>
+<li>Generate the frenet frame of the current position of the object and the finite position of the object.</li>
+<li>Optimize the path in each longitudinal and lateral coordinate of the frenet frame. (Use the quintic polynomial to fit start and end conditions.)</li>
+<li>Convert the path to the global coordinate.</li>
+</ol>
+<p>See paper [2] for more details.</p>
+<h4 id="tuning-lateral-path-shape">Tuning lateral path shape<a class="headerlink" href="#tuning-lateral-path-shape" title="Permanent link">#</a></h4>
+<p><code>lateral_control_time_horizon</code> parameter supports the tuning of the lateral path shape. This parameter is used to calculate the time to reach the reference path. The smaller the value, the more the path will be generated to reach the reference path quickly. (Mostly the center of the lane.)</p>
+<h4 id="pruning-predicted-paths-with-lateral-acceleration-constraint-for-vehicle-obstacles">Pruning predicted paths with lateral acceleration constraint (for vehicle obstacles)<a class="headerlink" href="#pruning-predicted-paths-with-lateral-acceleration-constraint-for-vehicle-obstacles" title="Permanent link">#</a></h4>
+<p>It is possible to apply a maximum lateral acceleration constraint to generated vehicle paths. This check verifies if it is possible for the vehicle to perform the predicted path without surpassing a lateral acceleration threshold <code>max_lateral_accel</code> when taking a curve. If it is not possible, it checks if the vehicle can slow down on time to take the curve with a deceleration of <code>min_acceleration_before_curve</code> and comply with the constraint. If that is also not possible, the path is eliminated.</p>
+<p>Currently we provide three parameters to tune the lateral acceleration constraint:</p>
+<ul>
+<li><code>check_lateral_acceleration_constraints_</code>: to enable the constraint check.</li>
+<li><code>max_lateral_accel_</code>: max acceptable lateral acceleration for predicted paths (absolute value).</li>
+<li><code>min_acceleration_before_curve_</code>: the minimum acceleration the vehicle would theoretically use to slow down before a curve is taken (must be negative).</li>
+</ul>
+<p>You can change these parameters in rosparam in the table below.</p>
+<table>
+<thead>
+<tr>
+<th>param name</th>
+<th>default value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>check_lateral_acceleration_constraints</code></td>
+<td><code>false</code> [bool]</td>
+</tr>
+<tr>
+<td><code>max_lateral_accel</code></td>
+<td><code>2.0</code> [m/s^2]</td>
+</tr>
+<tr>
+<td><code>min_acceleration_before_curve</code></td>
+<td><code>-2.0</code> [m/s^2]</td>
+</tr>
+</tbody>
+</table>
+<h2 id="using-vehicle-acceleration-for-path-prediction-for-vehicle-obstacles">Using Vehicle Acceleration for Path Prediction (for Vehicle Obstacles)<a class="headerlink" href="#using-vehicle-acceleration-for-path-prediction-for-vehicle-obstacles" title="Permanent link">#</a></h2>
+<p>By default, the <code>map_based_prediction</code> module uses the current obstacle's velocity to compute its predicted path length. However, it is possible to use the obstacle's current acceleration to calculate its predicted path's length.</p>
+<h3 id="decaying-acceleration-model">Decaying Acceleration Model<a class="headerlink" href="#decaying-acceleration-model" title="Permanent link">#</a></h3>
+<p>Since this module tries to predict the vehicle's path several seconds into the future, it is not practical to consider the current vehicle's acceleration as constant (it is not assumed the vehicle will be accelerating for <code>prediction_time_horizon</code> seconds after detection). Instead, a decaying acceleration model is used. With the decaying acceleration model, a vehicle's acceleration is modeled as:</p>
+<p>$\ a(t) = a_{t0} \cdot e^{-\lambda \cdot t} $</p>
+<p>where $\ a_{t0} $ is the vehicle acceleration at the time of detection $\ t0 $, and $\ \lambda $ is the decay constant $\ \lambda = \ln(2) / hl $ and $\ hl $ is the exponential's half life.</p>
+<p>Furthermore, the integration of $\ a(t) $ over time gives us equations for velocity, $\ v(t) $ and distance $\ x(t) $ as:</p>
+<p>$\ v(t) = v<em t0="t0">{t0} + a</em> * (1/\lambda) \cdot (1 - e^{-\lambda \cdot t}) $</p>
+<p>and</p>
+<p>$\ x(t) = x<em t0="t0">{t0} + (v</em> + a<em t0="t0">{t0} * (1/\lambda)) \cdot t + a</em>(1/λ^2)(e^{-\lambda \cdot t} - 1) $</p>
+<p>With this model, the influence of the vehicle's detected instantaneous acceleration on the predicted path's length is diminished but still considered. This feature also considers that the obstacle might not accelerate past its road's speed limit (multiplied by a tunable factor).</p>
+<p>Currently, we provide three parameters to tune the use of obstacle acceleration for path prediction:</p>
+<ul>
+<li><code>use_vehicle_acceleration</code>: to enable the feature.</li>
+<li><code>acceleration_exponential_half_life</code>: The decaying acceleration model considers that the current vehicle acceleration will be halved after this many seconds.</li>
+<li><code>speed_limit_multiplier</code>: Set the vehicle type obstacle's maximum predicted speed as the legal speed limit in that lanelet times this value. This value should be at least equal or greater than 1.0.</li>
+</ul>
+<p>You can change these parameters in <code>rosparam</code> in the table below.</p>
+<table>
+<thead>
+<tr>
+<th>Param Name</th>
+<th>Default Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>use_vehicle_acceleration</code></td>
+<td><code>false</code> [bool]</td>
+</tr>
+<tr>
+<td><code>acceleration_exponential_half_life</code></td>
+<td><code>2.5</code> [s]</td>
+</tr>
+<tr>
+<td><code>speed_limit_multiplier</code></td>
+<td><code>1.5</code> []</td>
+</tr>
+</tbody>
+</table>
+<h3 id="path-prediction-for-crosswalk-users">Path prediction for crosswalk users<a class="headerlink" href="#path-prediction-for-crosswalk-users" title="Permanent link">#</a></h3>
+<p>This module treats <strong>Pedestrians</strong> and <strong>Bicycles</strong> as objects using the crosswalk, and outputs prediction path based on map and estimated object's velocity, assuming the object has intention to cross the crosswalk, if the objects satisfies at least one of the following conditions:</p>
+<ul>
+<li>move toward the crosswalk</li>
+<li>stop near the crosswalk</li>
+</ul>
+<div align="center">
+  <img src="images/target_objects.svg" width="90%">
+</div>
+
+<p>If there are a reachable crosswalk entry points within the <code>prediction_time_horizon</code> and the objects satisfies above condition, this module outputs additional predicted path to cross the opposite side via the crosswalk entry point.</p>
+<p>This module takes into account the corresponding traffic light information.
+When RED signal is indicated, we assume the target object will not walk across.
+In addition, if the target object is stopping (not moving) against GREEN signal, we assume the target object will not walk across either.
+This prediction comes from the assumption that the object should move if the traffic light is green and the object is intended to cross.</p>
+<div align="center">
+  <img src="images/outside_road.svg" width="90%">
+</div>
+
+<p>If the target object is inside the road or crosswalk, this module outputs one or two additional prediction path(s) to reach exit point of the crosswalk. The number of prediction paths are depend on whether object is moving or not. If the object is moving, this module outputs one prediction path toward an exit point that existed in the direction of object's movement. One the other hand, if the object has stopped, it is impossible to infer which exit points the object want to go, so this module outputs two prediction paths toward both side exit point.</p>
+<div align="center">
+  <img src="images/inside_road.svg" width="90%">
+</div>
+
+<h2 id="inputs-outputs">Inputs / Outputs<a class="headerlink" href="#inputs-outputs" title="Permanent link">#</a></h2>
+<h3 id="input">Input<a class="headerlink" href="#input" title="Permanent link">#</a></h3>
 <table>
 <thead>
 <tr>
@@ -13189,42 +13471,179 @@
 </thead>
 <tbody>
 <tr>
-<td><code>/control/external_cmd_selector/current_selector_mode</code></td>
-<td>TBD</td>
-<td>Current selected mode, remote or local.</td>
+<td><code>~/perception/object_recognition/tracking/objects</code></td>
+<td><code>autoware_perception_msgs::msg::TrackedObjects</code></td>
+<td>tracking objects without predicted path.</td>
 </tr>
 <tr>
-<td><code>/diagnostics</code></td>
-<td>diagnostic_msgs::msg::DiagnosticArray</td>
-<td>Check if node is active or not.</td>
+<td><code>~/vector_map</code></td>
+<td><code>autoware_map_msgs::msg::LaneletMapBin</code></td>
+<td>binary data of Lanelet2 Map.</td>
 </tr>
 <tr>
-<td><code>/external/selected/external_control_cmd</code></td>
-<td>TBD</td>
-<td>Pass through control command with current mode.</td>
-</tr>
-<tr>
-<td><code>/external/selected/gear_cmd</code></td>
-<td>autoware_vehicle_msgs::msg::GearCommand</td>
-<td>Pass through gear command with current mode.</td>
-</tr>
-<tr>
-<td><code>/external/selected/hazard_lights_cmd</code></td>
-<td>autoware_vehicle_msgs::msg::HazardLightsCommand</td>
-<td>Pass through hazard light with current mode.</td>
-</tr>
-<tr>
-<td><code>/external/selected/heartbeat</code></td>
-<td>TBD</td>
-<td>Pass through heartbeat with current mode.</td>
-</tr>
-<tr>
-<td><code>/external/selected/turn_indicators_cmd</code></td>
-<td>autoware_vehicle_msgs::msg::TurnIndicatorsCommand</td>
-<td>Pass through turn indicator with current mode.</td>
+<td><code>~/perception/traffic_light_recognition/traffic_signals</code></td>
+<td><code>autoware_perception_msgs::msg::TrafficLightGroupArray</code></td>
+<td>rearranged information on the corresponding traffic lights</td>
 </tr>
 </tbody>
-</table></div>
+</table>
+<h3 id="output">Output<a class="headerlink" href="#output" title="Permanent link">#</a></h3>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>~/input/objects</code></td>
+<td><code>autoware_perception_msgs::msg::TrackedObjects</code></td>
+<td>tracking objects. Default is set to <code>/perception/object_recognition/tracking/objects</code></td>
+</tr>
+<tr>
+<td><code>~/output/objects</code></td>
+<td><code>autoware_perception_msgs::msg::PredictedObjects</code></td>
+<td>tracking objects with predicted path.</td>
+</tr>
+<tr>
+<td><code>~/objects_path_markers</code></td>
+<td><code>visualization_msgs::msg::MarkerArray</code></td>
+<td>marker for visualization.</td>
+</tr>
+<tr>
+<td><code>~/debug/processing_time_ms</code></td>
+<td><code>std_msgs::msg::Float64</code></td>
+<td>processing time of this module.</td>
+</tr>
+<tr>
+<td><code>~/debug/cyclic_time_ms</code></td>
+<td><code>std_msgs::msg::Float64</code></td>
+<td>cyclic time of this module.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="parameters">Parameters<a class="headerlink" href="#parameters" title="Permanent link">#</a></h2>
+<table>
+<thead>
+<tr>
+<th>Parameter</th>
+<th>Unit</th>
+<th>Type</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>enable_delay_compensation</code></td>
+<td>[-]</td>
+<td>bool</td>
+<td>flag to enable the time delay compensation for the position of the object</td>
+</tr>
+<tr>
+<td><code>prediction_time_horizon</code></td>
+<td>[s]</td>
+<td>double</td>
+<td>predict time duration for predicted path</td>
+</tr>
+<tr>
+<td><code>lateral_control_time_horizon</code></td>
+<td>[s]</td>
+<td>double</td>
+<td>time duration for predicted path will reach the reference path (mostly center of the lane)</td>
+</tr>
+<tr>
+<td><code>prediction_sampling_delta_time</code></td>
+<td>[s]</td>
+<td>double</td>
+<td>sampling time for points in predicted path</td>
+</tr>
+<tr>
+<td><code>min_velocity_for_map_based_prediction</code></td>
+<td>[m/s]</td>
+<td>double</td>
+<td>apply map-based prediction to the objects with higher velocity than this value</td>
+</tr>
+<tr>
+<td><code>min_crosswalk_user_velocity</code></td>
+<td>[m/s]</td>
+<td>double</td>
+<td>minimum velocity used when crosswalk user's velocity is calculated</td>
+</tr>
+<tr>
+<td><code>max_crosswalk_user_delta_yaw_threshold_for_lanelet</code></td>
+<td>[rad]</td>
+<td>double</td>
+<td>maximum yaw difference between crosswalk user and lanelet to use in path prediction for crosswalk users</td>
+</tr>
+<tr>
+<td><code>dist_threshold_for_searching_lanelet</code></td>
+<td>[m]</td>
+<td>double</td>
+<td>The threshold of the angle used when searching for the lane to which the object belongs</td>
+</tr>
+<tr>
+<td><code>delta_yaw_threshold_for_searching_lanelet</code></td>
+<td>[rad]</td>
+<td>double</td>
+<td>The threshold of the angle used when searching for the lane to which the object belongs</td>
+</tr>
+<tr>
+<td><code>sigma_lateral_offset</code></td>
+<td>[m]</td>
+<td>double</td>
+<td>Standard deviation for lateral position of objects</td>
+</tr>
+<tr>
+<td><code>sigma_yaw_angle_deg</code></td>
+<td>[deg]</td>
+<td>double</td>
+<td>Standard deviation yaw angle of objects</td>
+</tr>
+<tr>
+<td><code>object_buffer_time_length</code></td>
+<td>[s]</td>
+<td>double</td>
+<td>Time span of object history to store the information</td>
+</tr>
+<tr>
+<td><code>history_time_length</code></td>
+<td>[s]</td>
+<td>double</td>
+<td>Time span of object information used for prediction</td>
+</tr>
+<tr>
+<td><code>prediction_time_horizon_rate_for_validate_shoulder_lane_length</code></td>
+<td>[-]</td>
+<td>double</td>
+<td>prediction path will disabled when the estimated path length exceeds lanelet length. This parameter control the estimated path length</td>
+</tr>
+</tbody>
+</table>
+<h2 id="assumptions-known-limits">Assumptions / Known limits<a class="headerlink" href="#assumptions-known-limits" title="Permanent link">#</a></h2>
+<ul>
+<li>For object types of passenger car, bus, and truck<ul>
+<li>The predicted path of the object follows the road structure.</li>
+<li>For the object not being on any roads, the predicted path is generated by just a straight line prediction.</li>
+<li>For the object on a lanelet but moving in a different direction of the road, the predicted path is just straight.</li>
+<li>Vehicle dynamics may not be properly considered in the predicted path.</li>
+</ul>
+</li>
+<li>For object types of person and motorcycle<ul>
+<li>The predicted path is generated by just a straight line in all situations except for "around crosswalk".</li>
+</ul>
+</li>
+<li>For all obstacles<ul>
+<li>In the prediction, the vehicle motion is assumed to be a constant velocity due to a lack of acceleration information.</li>
+</ul>
+</li>
+</ul>
+<h2 id="reference">Reference<a class="headerlink" href="#reference" title="Permanent link">#</a></h2>
+<ol>
+<li>M. Werling, J. Ziegler, S. Kammel, and S. Thrun, “Optimal trajectory generation for dynamic street scenario in a frenet frame,” IEEE International Conference on Robotics and Automation, Anchorage, Alaska, USA, May 2010.</li>
+<li>A. Houenou, P. Bonnifait, V. Cherfaoui, and Wen Yao, “Vehicle trajectory prediction based on motion model and maneuver recognition,” in 2013 IEEE/RSJ International Conference on Intelligent Robots and Systems. IEEE, nov 2013, pp. 4363-4369.</li>
+</ol></div>
 
 
 
@@ -13251,7 +13670,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../control_validator/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Control Validator" rel="prev">
+          <a href="../../map/map_tf_generator/" class="md-footer__link md-footer__link--prev" aria-label="Previous: map_tf_generator" rel="prev">
             <div class="md-footer__button md-icon">
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
             </div>
@@ -13260,20 +13679,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Control Validator
+                map_tf_generator
               </div>
             </div>
           </a>
         
         
           
-          <a href="../lane_departure_checker/" class="md-footer__link md-footer__link--next" aria-label="Next: Lane Departure Checker" rel="next">
+          <a href="../bytetrack/" class="md-footer__link md-footer__link--next" aria-label="Next: bytetrack" rel="next">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Lane Departure Checker
+                bytetrack
               </div>
             </div>
             <div class="md-footer__button md-icon">
