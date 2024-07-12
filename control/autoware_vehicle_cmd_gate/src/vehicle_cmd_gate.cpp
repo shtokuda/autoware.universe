@@ -457,6 +457,28 @@ void VehicleCmdGate::onTimer()
     }
   }
 
+
+  const auto calcTopicDelay = [&](builtin_interfaces::msg::Time timestamp) {
+    return (this -> now() - timestamp).seconds();
+  };
+  const auto CheckTopicContinuity = []<class T>(const T& prev_topic, const T& current_topic) {
+    return rclcpp::Time(current_topic.stamp).seconds() -  rclcpp::Time(prev_topic.stamp).seconds() > 0.0 ? current_topic : prev_topic;
+  };
+
+  if (prev_commands_ ){
+    // auto max_topic_delay = std::max(calcTopicDelay(hazard_light.stamp), std::max(calcTopicDelay(turn_indicator.stamp), calcTopicDelay(gear.stamp)));
+    //  RCLCPP_WARN(get_logger(), "Max topic delay: %f, hazerd: %f, indi: %f, gear: %f", max_topic_delay, calcTopicDelay(hazard_light.stamp), calcTopicDelay(turn_indicator.stamp), calcTopicDelay(gear.stamp));
+    // if (max_topic_delay > 1.0) {
+      turn_indicator = CheckTopicContinuity( prev_commands_.turn_indicator, turn_indicator);
+      hazard_light = CheckTopicContinuity( prev_commands_.hazard_light, hazard_light);
+      gear = CheckTopicContinuity( prev_commands_.gear, gear);
+    // }
+  } 
+    
+  prev_commands_.turn_indicator = turn_indicator;
+  prev_commands_.hazard_light = hazard_light;
+  prev_commands_.gear = gear;
+
   // Publish topics
   turn_indicator_cmd_pub_->publish(turn_indicator);
   hazard_light_cmd_pub_->publish(hazard_light);
